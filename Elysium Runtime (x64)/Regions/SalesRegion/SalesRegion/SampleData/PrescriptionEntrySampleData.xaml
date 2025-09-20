@@ -1,0 +1,955 @@
+<RMSDataAccessLayer:PrescriptionEntry xmlns:RMSDataAccessLayer="clr-namespace:RMSDataAccessLayer;assembly=RMSDataAccessLayer" xmlns:System="clr-namespace:System;assembly=mscorlib" xmlns:Data="clr-namespace:System.Data;assembly=System.Data.Entity" Comment="Class curae vestibulum" Dosage="Cras curabitur aenean" ExpiryDate="Mauris maecenas" EntityState="Unchanged" Error="Nullam aptent adipiscing" ItemId="77" StoreID="39" TransactionId="29" Taxable="False" TransactionEntryId="80" ValidationErrorMsg="Rhoncus sodales nunc">
+	<RMSDataAccessLayer:PrescriptionEntry.Amount>
+		<System:Decimal/>
+	</RMSDataAccessLayer:PrescriptionEntry.Amount>
+	<RMSDataAccessLayer:PrescriptionEntry.EntityKey>
+		<Data:EntityKey EntitySetName="Felis rutrum ipsum" EntityContainerName="Habitasse dictumst mattis parturient" IsTemporary="True">
+			<Data:EntityKey.EntityKeyValues>
+				<Data:EntityKeyMember Key="Eleifend mauris viverra"/>
+				<Data:EntityKeyMember Key="Facilisi mollis vestibulum montes"/>
+				<Data:EntityKeyMember Key="Sem aliquam nostra"/>
+				<Data:EntityKeyMember Key="Odio hendrerit himenaeos vestibulum orci"/>
+				<Data:EntityKeyMember Key="Sit integer"/>
+				<Data:EntityKeyMember Key="Pede quam faucibus quisque imperdiet"/>
+				<Data:EntityKeyMember Key="Vel habitant quis malesuada"/>
+				<Data:EntityKeyMember Key="Nam urna inceptos cras ornare"/>
+				<Data:EntityKeyMember Key="Interdum platea lobortis primis adipiscing"/>
+				<Data:EntityKeyMember Key="Penatibus fames"/>
+			</Data:EntityKey.EntityKeyValues>
+		</Data:EntityKey>
+	</RMSDataAccessLayer:PrescriptionEntry.EntityKey>
+	<RMSDataAccessLayer:PrescriptionEntry.Item>
+		<RMSDataAccessLayer:Item Category="Praesent aliquam parturient" DateCreated="12/16/2012 14:38:31" Description="Duis nunc" Department="Donec nam" DisplayName="Auctor phasellus vestibulum accumsan congue" ExtendedDescription="Vestibulum sed" EntityState="Unchanged" ItemLookupCode="Adipiscing etiam parturient vestibulum" ItemId="89" ItemNotDiscountable="False" Inactive="True" Key="Vestibulum dis consequat" Quantity="462.86" SearchCriteria="Bibendum dictumst integer">
+			<RMSDataAccessLayer:Item.Cost>
+				<System:Decimal/>
+			</RMSDataAccessLayer:Item.Cost>
+			<RMSDataAccessLayer:Item.EntityKey>
+				<Data:EntityKey EntitySetName="Adipiscing tortor" EntityContainerName="Eleifend lorem primis" IsTemporary="True">
+					<Data:EntityKey.EntityKeyValues>
+						<Data:EntityKeyMember Key="Fermentum fringilla rutrum"/>
+						<Data:EntityKeyMember Key="Vestibulum sed"/>
+						<Data:EntityKeyMember Key="Sapien habitasse"/>
+						<Data:EntityKeyMember Key="Magna facilisi feugiat semper"/>
+						<Data:EntityKeyMember Key="Gravida massa sociis metus"/>
+						<Data:EntityKeyMember Key="Taciti tellus tempor vestibulum"/>
+						<Data:EntityKeyMember Key="Hendrerit tempus morbi sem"/>
+						<Data:EntityKeyMember Key="Neque himenaeos imperdiet netus"/>
+						<Data:EntityKeyMember Key="Faucibus sit malesuada elit"/>
+						<Data:EntityKeyMember Key="Penatibus vel nulla"/>
+					</Data:EntityKey.EntityKeyValues>
+				</Data:EntityKey>
+			</RMSDataAccessLayer:Item.EntityKey>
+			<RMSDataAccessLayer:Item.Price>
+				<System:Decimal/>
+			</RMSDataAccessLayer:Item.Price>
+			<RMSDataAccessLayer:Item.SalesTax>
+				<System:Decimal/>
+			</RMSDataAccessLayer:Item.SalesTax>
+			<RMSDataAccessLayer:Item.TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Adipiscing eleifend cursus facilisi fusce" EntityState="Modified" Error="Est lorem convallis parturient dictum" ItemId="65" StoreID="31" TransactionId="22" Taxable="True" TransactionEntryId="12" ValidationErrorMsg="Sit rutrum vel adipiscing">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Parturient nam" EntityContainerName="Lobortis elit nascetur magna" IsTemporary="True"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Morbi nulla" DateCreated="12/16/2012 14:38:31" Description="Elementum quisque" Department="Hac dignissim" DisplayName="Faucibus proin vivamus habitant" ExtendedDescription="Lectus libero ligula" EntityState="Deleted" ItemLookupCode="Litora facilisis vestibulum luctus" ItemId="86" ItemNotDiscountable="False" Inactive="True" Key="Leo magnis augue mus nec" Quantity="229.27" SearchCriteria="Vestibulum mattis"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="92" CashierId="29" Comment="Mauris mollis inceptos aliquam amet" DisplayName="Fermentum aliquet adipiscing montes" EntityState="Detached" Error="Blandit fringilla commodo dolor ante" Key="Non fames nostra conubia arcu" OpenClose="False" ReferenceNumber="Parturient diam cubilia eget per" SearchCriteria="Vestibulum felis" StationId="77" StoreCode="Ornare lacus platea" Status="Interdum ipsum justo dapibus" Time="12/16/2012 14:38:31" TransactionId="41" TransactionNumber="Egestas lorem primis vestibulum" ValidationErrorMsg="Sed sem habitasse"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Vestibulum sapien hendrerit" EntityState="Deleted" Error="Sed massa vestibulum enim euismod" ItemId="65" StoreID="30" TransactionId="41" Taxable="False" TransactionEntryId="13" ValidationErrorMsg="Pede non ultricies">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Per venenatis nullam volutpat" EntityContainerName="Curae donec mauris" IsTemporary="False"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Pharetra adipiscing erat" DateCreated="12/16/2012 14:38:31" Description="Eros semper nibh" Department="Metus feugiat himenaeos" DisplayName="Placerat imperdiet pulvinar" ExtendedDescription="Sociis morbi gravida taciti" EntityState="Unchanged" ItemLookupCode="Malesuada sagittis iaculis nisi tellus" ItemId="63" ItemNotDiscountable="True" Inactive="False" Key="Senectus lacinia neque netus" Quantity="386.65" SearchCriteria="Nulla sociosqu"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="50" CashierId="43" Comment="Parturient tempor porta purus tempus" DisplayName="Nisl tortor" EntityState="Modified" Error="Turpis nunc suscipit torquent penatibus" Key="Odio porttitor" OpenClose="True" ReferenceNumber="Orci dis est laoreet risus" SearchCriteria="Ultrices vehicula tincidunt" StationId="56" StoreCode="Aenean hac" Status="Varius velit natoque" Time="12/16/2012 14:38:31" TransactionId="72" TransactionNumber="Leo vestibulum" ValidationErrorMsg="Vitae tristique mus class nec"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Sed vulputate etiam aptent" EntityState="Unchanged" Error="Fusce maecenas posuere curabitur" ItemId="84" StoreID="83" TransactionId="56" Taxable="True" TransactionEntryId="93" ValidationErrorMsg="Vestibulum adipiscing integer dictum">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Sed quisque sem lectus" EntityContainerName="Eget per parturient lobortis himenaeos" IsTemporary="True"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Sem potenti sit" DateCreated="12/16/2012 14:38:31" Description="Sed praesent dis" Department="Vel nam" DisplayName="Quam lorem pretium phasellus consequat" ExtendedDescription="Accumsan rhoncus est sodales quis" EntityState="Detached" ItemLookupCode="Urna bibendum cras convallis dictumst" ItemId="26" ItemNotDiscountable="False" Inactive="True" Key="Dignissim auctor eleifend duis" Quantity="511.9" SearchCriteria="Elementum hac viverra"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="63" CashierId="44" Comment="Facilisis morbi fermentum vestibulum" DisplayName="Leo facilisi mus nec non" EntityState="Detached" Error="Fringilla faucibus nulla" Key="Proin habitant augue aliquam" OpenClose="False" ReferenceNumber="Adipiscing congue nunc" SearchCriteria="Amet habitasse" StationId="83" StoreCode="Hendrerit inceptos arcu" Status="Ante cursus" Time="12/16/2012 14:38:31" TransactionId="21" TransactionNumber="Parturient diam interdum" ValidationErrorMsg="Dolor vestibulum"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Sit vestibulum vivamus vestibulum libero" EntityState="Detached" Error="Adipiscing imperdiet malesuada aliquam parturient" ItemId="62" StoreID="35" TransactionId="99" Taxable="False" TransactionEntryId="32" ValidationErrorMsg="Nibh dignissim mollis morbi elementum">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Egestas nostra vestibulum" EntityContainerName="Montes accumsan" IsTemporary="False"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Nascetur pharetra penatibus vestibulum" DateCreated="12/16/2012 14:38:31" Description="Pulvinar tristique" Department="Fames porttitor placerat tincidunt ligula" DisplayName="Sagittis felis" ExtendedDescription="Senectus ipsum vel aliquet" EntityState="Unchanged" ItemLookupCode="Vestibulum sociosqu litora elit" ItemId="32" ItemNotDiscountable="True" Inactive="False" Key="Justo nam sed suscipit ultricies" Quantity="426.51" SearchCriteria="Torquent dis ultrices vehicula blandit"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="29" CashierId="32" Comment="Est lacus" DisplayName="Adipiscing parturient venenatis luctus hac" EntityState="Added" Error="Commodo vulputate leo enim" Key="Mus magnis conubia lorem cubilia" OpenClose="True" ReferenceNumber="Curabitur volutpat magna" SearchCriteria="Massa phasellus" StationId="61" StoreCode="Consequat mattis dapibus convallis metus" Status="Nec erat" Time="12/16/2012 14:38:31" TransactionId="90" TransactionNumber="Mauris eros maecenas" ValidationErrorMsg="Non praesent"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Neque vestibulum nisi bibendum" EntityState="Detached" Error="Ornare platea netus adipiscing nulla" ItemId="24" StoreID="73" TransactionId="19" Taxable="True" TransactionEntryId="70" ValidationErrorMsg="Fusce parturient vestibulum tempor dis">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Lobortis hac iaculis leo tristique" EntityContainerName="Lorem est" IsTemporary="True"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Primis porta" DateCreated="12/16/2012 14:38:31" Description="Sed nisl euismod nunc eleifend" Department="Dictumst per" DisplayName="Facilisis sem facilisi rutrum" ExtendedDescription="Sit sapien" EntityState="Modified" ItemLookupCode="Odio fermentum parturient" ItemId="77" ItemNotDiscountable="False" Inactive="True" Key="Orci vel" Quantity="176.85" SearchCriteria="Pede faucibus fringilla semper"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="63" CashierId="36" Comment="Quam vestibulum habitasse quis vestibulum" DisplayName="Purus hendrerit urna" EntityState="Unchanged" Error="Cras risus" Key="Habitant velit feugiat himenaeos vitae" OpenClose="False" ReferenceNumber="Duis nunc class nam imperdiet" SearchCriteria="Curae amet malesuada adipiscing" StationId="30" StoreCode="Sed porttitor" Status="Penatibus sociis inceptos taciti" Time="12/16/2012 14:38:31" TransactionId="64" TransactionNumber="Ante interdum gravida donec" ValidationErrorMsg="Tincidunt arcu tellus etiam diam"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Vestibulum lacinia mus eget" EntityState="Modified" Error="Adipiscing nec" ItemId="95" StoreID="18" TransactionId="74" Taxable="False" TransactionEntryId="91" ValidationErrorMsg="Facilisis aptent vestibulum">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Leo mus odio" EntityContainerName="Auctor hac adipiscing congue nunc" IsTemporary="False"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Ultricies tempus laoreet natoque tortor" DateCreated="12/16/2012 14:38:31" Description="Elit per" Department="Non turpis" DisplayName="Venenatis enim" ExtendedDescription="Parturient sed" EntityState="Detached" ItemLookupCode="Vulputate vestibulum sem nascetur" ItemId="76" ItemNotDiscountable="True" Inactive="False" Key="Vestibulum morbi pharetra placerat pulvinar" Quantity="280.73" SearchCriteria="Sagittis curabitur senectus adipiscing"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="87" CashierId="44" Comment="Sit parturient erat vel" DisplayName="Varius nam phasellus sed posuere" EntityState="Modified" Error="Vestibulum sociosqu" Key="Consequat aenean" OpenClose="True" ReferenceNumber="Convallis dis" SearchCriteria="Vestibulum nulla eros mauris" StationId="99" StoreCode="Nibh adipiscing parturient vestibulum nisi" Status="Est nullam" Time="12/16/2012 14:38:31" TransactionId="57" TransactionNumber="Dignissim proin augue nisl" ValidationErrorMsg="Suscipit elementum"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Parturient cursus" EntityState="Deleted" Error="Vestibulum dictum potenti" ItemId="33" StoreID="31" TransactionId="50" Taxable="True" TransactionEntryId="19" ValidationErrorMsg="Maecenas dis praesent vestibulum adipiscing">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Parturient hac morbi aliquet urna" EntityContainerName="Est accumsan quis aliquam" IsTemporary="True"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Torquent fermentum" DateCreated="12/16/2012 14:38:31" Description="Dolor ultrices libero vestibulum" Department="Lectus pretium" DisplayName="Nec fames" ExtendedDescription="Orci felis" EntityState="Detached" ItemLookupCode="Ipsum rhoncus fringilla" ItemId="15" ItemNotDiscountable="False" Inactive="True" Key="Justo lacus habitasse adipiscing" Quantity="871.12" SearchCriteria="Parturient hendrerit sodales himenaeos"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="48" CashierId="80" Comment="Lorem imperdiet" DisplayName="Magna vestibulum ligula vestibulum" EntityState="Deleted" Error="Non viverra" Key="Per malesuada" OpenClose="False" ReferenceNumber="Massa aliquam litora" SearchCriteria="Penatibus pede luctus quam sed" StationId="35" StoreCode="Porttitor vehicula sit adipiscing integer" Status="Sem magnis" Time="12/16/2012 14:38:31" TransactionId="31" TransactionNumber="Metus parturient quisque vivamus vestibulum" ValidationErrorMsg="Mattis volutpat vel nam sed"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Mauris tincidunt vestibulum bibendum cras" EntityState="Detached" Error="Leo dictumst tristique mollis" ItemId="44" StoreID="42" TransactionId="88" Taxable="False" TransactionEntryId="94" ValidationErrorMsg="Risus varius interdum">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Aenean mauris vestibulum elit" EntityContainerName="Velit vitae" IsTemporary="False"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Montes duis mus nostra" DateCreated="12/16/2012 14:38:31" Description="Ornare platea eleifend" Department="Vestibulum nec neque blandit" DisplayName="Primis rutrum sapien non nunc" ExtendedDescription="Netus per semper" EntityState="Detached" ItemLookupCode="Commodo adipiscing conubia parturient nulla" ItemId="86" ItemNotDiscountable="True" Inactive="False" Key="Sociis amet sed" Quantity="240.14" SearchCriteria="Taciti sem vestibulum vestibulum"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="68" CashierId="59" Comment="Tellus adipiscing facilisi porta" DisplayName="Ultricies venenatis faucibus vulputate" EntityState="Unchanged" Error="Sit ante tempor cubilia" Key="Curabitur phasellus" OpenClose="True" ReferenceNumber="Habitant parturient tempus consequat tortor" SearchCriteria="Convallis vel arcu" StationId="20" StoreCode="Inceptos vestibulum elementum nam facilisis" Status="Diam dapibus dignissim eget" Time="12/16/2012 14:38:31" TransactionId="57" TransactionNumber="Turpis egestas" ValidationErrorMsg="Euismod purus feugiat fermentum sed"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Nullam fringilla" EntityState="Unchanged" Error="Enim gravida lobortis iaculis" ItemId="62" StoreID="58" TransactionId="98" Taxable="True" TransactionEntryId="45" ValidationErrorMsg="Cursus proin aliquam pede nam">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Quam dictum malesuada" EntityContainerName="Integer torquent quisque" IsTemporary="True"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Dis adipiscing class nascetur erat" DateCreated="12/16/2012 14:38:31" Description="Est pharetra parturient" Department="Lacinia laoreet" DisplayName="Hac curae vestibulum" ExtendedDescription="Leo donec natoque" EntityState="Deleted" ItemLookupCode="Mus eros etiam posuere nec" ItemId="67" ItemNotDiscountable="False" Inactive="True" Key="Nibh placerat habitasse hendrerit" Quantity="554.99" SearchCriteria="Non himenaeos per fusce"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="63" CashierId="98" Comment="Nisi pulvinar aptent nisl" DisplayName="Vestibulum auctor potenti" EntityState="Modified" Error="Adipiscing parturient sagittis pretium" Key="Senectus lorem" OpenClose="False" ReferenceNumber="Sed morbi nulla" SearchCriteria="Sem congue vestibulum vestibulum" StationId="73" StoreCode="Nunc odio rhoncus" Status="Adipiscing sociosqu sit" Time="12/16/2012 14:38:31" TransactionId="74" TransactionNumber="Parturient orci sodales vestibulum" ValidationErrorMsg="Vel suscipit viverra imperdiet"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Penatibus ultrices sed augue" EntityState="Modified" Error="Lectus vehicula vivamus porttitor" ItemId="45" StoreID="28" TransactionId="99" Taxable="False" TransactionEntryId="85" ValidationErrorMsg="Dictumst euismod">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Eget parturient facilisis per" EntityContainerName="Platea elementum" IsTemporary="False"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Quis dolor" DateCreated="12/16/2012 14:38:31" Description="Dis libero" Department="Aliquam aliquet urna" DisplayName="Blandit ligula" ExtendedDescription="Litora est commodo tincidunt" EntityState="Unchanged" ItemLookupCode="Cras conubia cubilia hac" ItemId="47" ItemNotDiscountable="True" Inactive="False" Key="Tristique vestibulum luctus magnis" Quantity="402.92" SearchCriteria="Duis fames dapibus egestas"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="35" CashierId="72" Comment="Mattis felis" DisplayName="Ultricies venenatis vulputate" EntityState="Modified" Error="Leo nunc mauris curabitur mollis" Key="Montes adipiscing volutpat ipsum" OpenClose="True" ReferenceNumber="Mus maecenas parturient justo amet" SearchCriteria="Ante phasellus nec praesent arcu" StationId="40" StoreCode="Diam ornare" Status="Nostra lacus accumsan consequat" Time="12/16/2012 14:38:31" TransactionId="87" TransactionNumber="Vestibulum non vestibulum adipiscing convallis" ValidationErrorMsg="Dignissim bibendum"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+			</RMSDataAccessLayer:Item.TransactionEntryBase>
+		</RMSDataAccessLayer:Item>
+	</RMSDataAccessLayer:PrescriptionEntry.Item>
+	<RMSDataAccessLayer:PrescriptionEntry.Price>
+		<System:Decimal/>
+	</RMSDataAccessLayer:PrescriptionEntry.Price>
+	<RMSDataAccessLayer:PrescriptionEntry.Quantity>
+		<System:Decimal/>
+	</RMSDataAccessLayer:PrescriptionEntry.Quantity>
+	<RMSDataAccessLayer:PrescriptionEntry.SalesTaxPercent>
+		<System:Decimal/>
+	</RMSDataAccessLayer:PrescriptionEntry.SalesTaxPercent>
+	<RMSDataAccessLayer:PrescriptionEntry.SalesTax>
+		<System:Decimal/>
+	</RMSDataAccessLayer:PrescriptionEntry.SalesTax>
+	<RMSDataAccessLayer:PrescriptionEntry.Transaction>
+		<RMSDataAccessLayer:TransactionBase BatchId="71" CashierId="70" Comment="Fringilla vivamus" DisplayName="Amet consequat parturient" EntityState="Unchanged" Error="Ante vestibulum" Key="Aliquam mus" OpenClose="False" ReferenceNumber="Convallis vestibulum aliquet" SearchCriteria="Adipiscing blandit metus dignissim parturient" StationId="80" StoreCode="Enim lorem" Status="Senectus aliquet himenaeos adipiscing" Time="12/16/2012 14:38:31" TransactionId="93" TransactionNumber="Vestibulum fermentum" ValidationErrorMsg="Laoreet fringilla">
+			<RMSDataAccessLayer:TransactionBase.Batch>
+				<RMSDataAccessLayer:Batch BatchId="44" CloseTransactions="38" CloseTransactionsEx="62" EndingCashEx="455.73" EntityState="Detached" OpenTransactionsEx="79" OpeningCashier="24" OpenTransactions="15" OpeningCash="926.72" OpeningTime="12/16/2012 14:38:31" StationId="70" Sales="971.31" SalesEx="160.18" Status="Posuere hendrerit faucibus" TotalChangeEx="230.69" TotalTenderEx="205.61">
+					<RMSDataAccessLayer:Batch.CloseTransactionBase>
+						<RMSDataAccessLayer:TransactionBase BatchId="42" CashierId="27" Comment="Curae placerat venenatis vestibulum" DisplayName="Rhoncus lectus sit" EntityState="Unchanged" Error="Nibh nisi" Key="Sodales pulvinar viverra" OpenClose="True" ReferenceNumber="Vestibulum vulputate" SearchCriteria="Adipiscing donec vel" StationId="79" StoreCode="Parturient vestibulum fusce curabitur" Status="Nisl etiam" Time="12/16/2012 14:38:31" TransactionId="77" TransactionNumber="Lorem libero" ValidationErrorMsg="Sagittis nunc morbi vestibulum ligula"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="36" CashierId="76" Comment="Adipiscing aliquam" DisplayName="Nam senectus" EntityState="Detached" Error="Odio orci litora luctus phasellus" Key="Sed integer" OpenClose="False" ReferenceNumber="Consequat parturient nulla pede quam" SearchCriteria="Sociosqu dis convallis quis magnis" StationId="17" StoreCode="Quisque mattis est" Status="Urna dignissim" Time="12/16/2012 14:38:31" TransactionId="45" TransactionNumber="Vestibulum vivamus aliquam vestibulum proin" ValidationErrorMsg="Elementum cras facilisis suscipit"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="98" CashierId="39" Comment="Duis mauris augue torquent" DisplayName="Fermentum fringilla ultrices mollis" EntityState="Unchanged" Error="Dolor fames hac felis" Key="Montes leo nunc adipiscing" OpenClose="True" ReferenceNumber="Mus nostra habitasse parturient vehicula" SearchCriteria="Hendrerit ornare" StationId="49" StoreCode="Ipsum vestibulum himenaeos" Status="Amet ante" Time="12/16/2012 14:38:31" TransactionId="21" TransactionNumber="Vestibulum imperdiet" ValidationErrorMsg="Malesuada aliquet"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="89" CashierId="39" Comment="Arcu volutpat nec maecenas" DisplayName="Platea primis non rutrum" EntityState="Detached" Error="Penatibus porttitor sapien justo" Key="Semper praesent" OpenClose="False" ReferenceNumber="Sociis blandit" SearchCriteria="Taciti per diam" StationId="26" StoreCode="Lorem sed" Status="Lacus tellus adipiscing parturient" Time="12/16/2012 14:38:31" TransactionId="51" TransactionNumber="Sem commodo tempor tincidunt" ValidationErrorMsg="Tristique tempus conubia"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="34" CashierId="57" Comment="Cubilia tortor eget" DisplayName="Ultricies sit turpis" EntityState="Detached" Error="Dapibus egestas" Key="Varius aenean elit" OpenClose="True" ReferenceNumber="Vestibulum magna enim venenatis mauris" SearchCriteria="Vestibulum massa" StationId="73" StoreCode="Eros vulputate accumsan bibendum metus" Status="Nullam adipiscing euismod aptent erat" Time="12/16/2012 14:38:31" TransactionId="44" TransactionNumber="Parturient feugiat gravida vestibulum morbi" ValidationErrorMsg="Vestibulum curabitur adipiscing iaculis dictumst"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="37" CashierId="83" Comment="Lacinia parturient laoreet" DisplayName="Natoque vestibulum" EntityState="Unchanged" Error="Vel eleifend vestibulum nam adipiscing" Key="Neque sed posuere potenti auctor" OpenClose="False" ReferenceNumber="Pretium parturient dis" SearchCriteria="Netus vestibulum vestibulum nulla phasellus" StationId="73" StoreCode="Porta rhoncus purus" Status="Nibh facilisi consequat adipiscing" Time="12/16/2012 14:38:31" TransactionId="31" TransactionNumber="Congue convallis dignissim" ValidationErrorMsg="Nisi elementum cursus risus parturient"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="61" CashierId="71" Comment="Dictum est" DisplayName="Sodales facilisis faucibus habitant vestibulum" EntityState="Detached" Error="Fermentum vestibulum hac" Key="Lectus inceptos adipiscing interdum lobortis" OpenClose="True" ReferenceNumber="Viverra nascetur" SearchCriteria="Nisl nunc velit parturient" StationId="12" StoreCode="Ligula pharetra aliquam integer" Status="Odio orci libero" Time="12/16/2012 14:38:31" TransactionId="81" TransactionNumber="Vitae litora placerat vestibulum pede" ValidationErrorMsg="Leo pulvinar class luctus"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="74" CashierId="20" Comment="Quam sagittis mus" DisplayName="Curae fringilla" EntityState="Modified" Error="Vestibulum adipiscing habitasse hendrerit" Key="Magnis senectus quis" OpenClose="False" ReferenceNumber="Urna quisque sociosqu" SearchCriteria="Donec nec" StationId="79" StoreCode="Non etiam vestibulum" Status="Parturient cras himenaeos" Time="12/16/2012 14:38:31" TransactionId="65" TransactionNumber="Duis mattis vivamus aliquam fusce" ValidationErrorMsg="Aliquet blandit vestibulum adipiscing lorem"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="54" CashierId="29" Comment="Nunc mauris mollis" DisplayName="Per sed amet" EntityState="Added" Error="Morbi nulla suscipit" Key="Commodo proin imperdiet" OpenClose="True" ReferenceNumber="Montes sem malesuada parturient" SearchCriteria="Torquent ante sit nostra" StationId="30" StoreCode="Vestibulum vestibulum dolor fames conubia" Status="Ornare augue penatibus porttitor" Time="12/16/2012 14:38:31" TransactionId="40" TransactionNumber="Arcu felis platea tincidunt tristique" ValidationErrorMsg="Vel nam ipsum"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="83" CashierId="30" Comment="Diam sed ultricies adipiscing" DisplayName="Cubilia primis" EntityState="Unchanged" Error="Venenatis ultrices justo parturient" Key="Dapibus vehicula rutrum vulputate lacus" OpenClose="False" ReferenceNumber="Curabitur sapien" SearchCriteria="Vestibulum phasellus volutpat" StationId="47" StoreCode="Elit consequat" Status="Maecenas eget" Time="12/16/2012 14:38:31" TransactionId="98" TransactionNumber="Vestibulum convallis" ValidationErrorMsg="Semper lorem"/>
+					</RMSDataAccessLayer:Batch.CloseTransactionBase>
+					<RMSDataAccessLayer:Batch.CloseCashier>
+						<RMSDataAccessLayer:Cashier Address="Leo purus" CompanyName="Porttitor lacinia varius habitant inceptos" DisplayName="Laoreet vestibulum natoque interdum erat" EntityState="Added" FirstName="Mus risus nec non velit" Id="47" Key="Tincidunt aenean posuere potenti per" LastName="Pretium tristique vitae class" LoginName="Nam sed parturient" Name="Mauris nullam lobortis sed" Password="Iaculis enim" PhoneNumber="Eros vestibulum adipiscing nascetur" Salutation="Pharetra parturient ultricies aptent" SearchCriteria="Auctor congue sem cursus dictum" SPassword="Turpis dis est porta hac"/>
+					</RMSDataAccessLayer:Batch.CloseCashier>
+					<RMSDataAccessLayer:Batch.EntityKey>
+						<Data:EntityKey EntitySetName="Luctus commodo vestibulum elit" EntityContainerName="Ligula litora blandit curabitur nulla" IsTemporary="True"/>
+					</RMSDataAccessLayer:Batch.EntityKey>
+					<RMSDataAccessLayer:Batch.OpenCashier>
+						<RMSDataAccessLayer:Cashier Address="Est hac" CompanyName="Feugiat adipiscing facilisis accumsan" DisplayName="Leo taciti parturient" EntityState="Modified" FirstName="Gravida tellus fermentum enim" Id="49" Key="Massa bibendum mus" LastName="Vestibulum vestibulum nec dictumst" LoginName="Dignissim adipiscing praesent parturient elementum" Name="Non tempor" Password="Egestas sociis" PhoneNumber="Adipiscing metus morbi" Salutation="Iaculis fringilla habitasse" SearchCriteria="Tempus erat lacinia" SPassword="Dis magna euismod vestibulum vestibulum"/>
+					</RMSDataAccessLayer:Batch.OpenCashier>
+					<RMSDataAccessLayer:Batch.Station>
+						<RMSDataAccessLayer:Station EntityState="Added" MachineName="Parturient per vestibulum eleifend" ReceiptPrinterName="Laoreet natoque eros sed" StationCode="Nibh facilisi sem neque nisi" StoreId="11" StationId="83"/>
+					</RMSDataAccessLayer:Batch.Station>
+					<RMSDataAccessLayer:Batch.TransactionBase>
+						<RMSDataAccessLayer:TransactionBase BatchId="43" CashierId="74" Comment="Tortor vestibulum" DisplayName="Turpis nisl netus" EntityState="Detached" Error="Varius nunc adipiscing potenti" Key="Sit odio pretium orci himenaeos" OpenClose="True" ReferenceNumber="Nulla parturient habitant vel" SearchCriteria="Aenean imperdiet porta inceptos nam" StationId="29" StoreCode="Sed dis" Status="Mauris interdum malesuada penatibus" Time="12/16/2012 14:38:31" TransactionId="65" TransactionNumber="Pede lobortis" ValidationErrorMsg="Porttitor rhoncus tincidunt"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="99" CashierId="20" Comment="Nullam vestibulum vestibulum est purus" DisplayName="Sodales tristique hac" EntityState="Modified" Error="Leo aptent risus nascetur adipiscing" Key="Velit auctor" OpenClose="False" ReferenceNumber="Mus viverra" SearchCriteria="Quam quis" StationId="58" StoreCode="Cursus dictum" Status="Parturient congue ultricies venenatis vestibulum" Time="12/16/2012 14:38:31" TransactionId="54" TransactionNumber="Aliquam urna vestibulum" ValidationErrorMsg="Lectus libero ligula"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="58" CashierId="26" Comment="Nec litora" DisplayName="Luctus vitae non pharetra" EntityState="Unchanged" Error="Placerat adipiscing" Key="Parturient class integer quisque cras" OpenClose="True" ReferenceNumber="Per vestibulum" SearchCriteria="Vivamus aliquam" StationId="64" StoreCode="Magnis pulvinar sed sem cubilia" Status="Vestibulum aliquet blandit commodo conubia" Time="12/16/2012 14:38:31" TransactionId="73" TransactionNumber="Vulputate adipiscing" ValidationErrorMsg="Sagittis duis senectus sit curabitur"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="35" CashierId="71" Comment="Dapibus mattis" DisplayName="Parturient vel" EntityState="Modified" Error="Nam vestibulum mauris" Key="Nunc sed dis amet curae" OpenClose="False" ReferenceNumber="Phasellus mollis montes est egestas" SearchCriteria="Vestibulum adipiscing consequat parturient nostra" StationId="87" StoreCode="Hac adipiscing" Status="Vestibulum convallis donec vestibulum" Time="12/16/2012 14:38:31" TransactionId="60" TransactionNumber="Parturient ante" ValidationErrorMsg="Arcu vestibulum"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="83" CashierId="67" Comment="Ornare etiam platea" DisplayName="Primis euismod" EntityState="Added" Error="Feugiat vestibulum gravida" Key="Diam fusce" OpenClose="True" ReferenceNumber="Iaculis lorem lacinia dignissim" SearchCriteria="Eget elit" StationId="69" StoreCode="Elementum nulla" Status="Morbi adipiscing enim erat" Time="12/16/2012 14:38:31" TransactionId="19" TransactionNumber="Parturient eros" ValidationErrorMsg="Rutrum nibh"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="85" CashierId="67" Comment="Facilisis leo fermentum laoreet" DisplayName="Proin fringilla vestibulum" EntityState="Detached" Error="Nisi habitasse natoque" Key="Vestibulum mus sapien" OpenClose="False" ReferenceNumber="Adipiscing parturient augue" SearchCriteria="Sociosqu posuere vestibulum" StationId="13" StoreCode="Semper torquent vestibulum potenti" Status="Suscipit nisl" Time="12/16/2012 14:38:31" TransactionId="20" TransactionNumber="Nec non adipiscing nunc per" ValidationErrorMsg="Dolor fames parturient"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="75" CashierId="16" Comment="Felis ultrices vestibulum hendrerit pretium" DisplayName="Sed himenaeos sociis taciti" EntityState="Added" Error="Vestibulum vehicula odio ipsum tellus" Key="Orci justo tempor" OpenClose="True" ReferenceNumber="Volutpat tempus" SearchCriteria="Lacus imperdiet adipiscing tortor lorem" StationId="75" StoreCode="Pede maecenas" Status="Parturient vestibulum" Time="12/16/2012 14:38:31" TransactionId="44" TransactionNumber="Vestibulum adipiscing" ValidationErrorMsg="Praesent magna accumsan"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="67" CashierId="52" Comment="Sem sit massa parturient" DisplayName="Rhoncus vel turpis nam" EntityState="Deleted" Error="Metus malesuada varius sed bibendum" Key="Quam dictumst" OpenClose="False" ReferenceNumber="Penatibus sodales" SearchCriteria="Eleifend aenean" StationId="47" StoreCode="Mauris morbi" Status="Porttitor dis quis" Time="12/16/2012 14:38:31" TransactionId="87" TransactionNumber="Facilisi tincidunt faucibus" ValidationErrorMsg="Vestibulum est"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="10" CashierId="21" Comment="Nullam aptent neque auctor" DisplayName="Viverra urna netus vestibulum" EntityState="Deleted" Error="Nulla adipiscing habitant parturient cras" Key="Aliquam hac" OpenClose="True" ReferenceNumber="Vestibulum porta purus" SearchCriteria="Inceptos integer vestibulum risus" StationId="40" StoreCode="Adipiscing lobortis parturient vitae nascetur" Status="Duis velit congue interdum" Time="12/16/2012 14:38:31" TransactionId="45" TransactionNumber="Cursus quisque leo vestibulum" ValidationErrorMsg="Dictum nunc vivamus amet"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="59" CashierId="99" Comment="Mus class vestibulum curae" DisplayName="Pharetra tristique ultricies adipiscing placerat" EntityState="Modified" Error="Donec etiam lectus" Key="Aliquam parturient fusce ante nec" OpenClose="False" ReferenceNumber="Arcu non" SearchCriteria="Vestibulum venenatis lorem aliquet vestibulum" StationId="54" StoreCode="Morbi libero" Status="Adipiscing diam" Time="12/16/2012 14:38:31" TransactionId="19" TransactionNumber="Per pulvinar sagittis vulputate senectus" ValidationErrorMsg="Sed sociosqu eget parturient sem"/>
+					</RMSDataAccessLayer:Batch.TransactionBase>
+				</RMSDataAccessLayer:Batch>
+			</RMSDataAccessLayer:TransactionBase.Batch>
+			<RMSDataAccessLayer:TransactionBase.CloseBatch>
+				<RMSDataAccessLayer:Batch BatchId="72" CloseTransactions="93" CloseTransactionsEx="77" EndingCashEx="565.38" EntityState="Deleted" OpenTransactionsEx="46" OpeningCashier="45" OpenTransactions="35" OpeningCash="885.74" OpeningTime="12/16/2012 14:38:31" StationId="47" Sales="174.62" SalesEx="167.09" Status="Egestas vulputate curae vestibulum" TotalChangeEx="178.09" TotalTenderEx="666.94">
+					<RMSDataAccessLayer:Batch.CloseTransactionBase>
+						<RMSDataAccessLayer:TransactionBase BatchId="67" CashierId="97" Comment="Hendrerit conubia himenaeos" DisplayName="Erat parturient" EntityState="Detached" Error="Vestibulum eros vestibulum nam ultrices" Key="Adipiscing vehicula" OpenClose="True" ReferenceNumber="Lacus varius" SearchCriteria="Imperdiet lorem magna massa" StationId="39" StoreCode="Parturient aenean nisi nisl" Status="Volutpat nibh" Time="12/16/2012 14:38:31" TransactionId="90" TransactionNumber="Maecenas mauris nullam cubilia aptent" ValidationErrorMsg="Malesuada vestibulum"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="49" CashierId="96" Comment="Praesent sed metus penatibus" DisplayName="Dis auctor congue est dapibus" EntityState="Detached" Error="Hac leo" Key="Cursus vestibulum porttitor morbi" OpenClose="False" ReferenceNumber="Egestas neque accumsan bibendum adipiscing" SearchCriteria="Dictum lectus parturient" StationId="39" StoreCode="Ligula litora luctus feugiat gravida" Status="Libero netus nulla euismod" Time="12/16/2012 14:38:31" TransactionId="78" TransactionNumber="Nunc dictumst" ValidationErrorMsg="Odio iaculis vestibulum eleifend facilisi"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="68" CashierId="50" Comment="Tincidunt tristique orci" DisplayName="Mus pede ultricies" EntityState="Added" Error="Nec porta magnis purus" Key="Vestibulum quam" OpenClose="True" ReferenceNumber="Venenatis vulputate curabitur" SearchCriteria="Lacinia quis" StationId="60" StoreCode="Mattis phasellus parturient non" Status="Urna adipiscing" Time="12/16/2012 14:38:31" TransactionId="34" TransactionNumber="Faucibus cras mauris" ValidationErrorMsg="Laoreet duis nunc"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="83" CashierId="44" Comment="Natoque consequat posuere habitant" DisplayName="Per convallis amet ante mollis" EntityState="Unchanged" Error="Inceptos potenti risus sed" Key="Arcu diam pretium velit" OpenClose="False" ReferenceNumber="Dignissim elementum montes eget sem" SearchCriteria="Nostra sit elit" StationId="24" StoreCode="Fermentum rhoncus" Status="Facilisis vestibulum" Time="12/16/2012 14:38:31" TransactionId="96" TransactionNumber="Fringilla habitasse" ValidationErrorMsg="Vitae hendrerit vel"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="50" CashierId="50" Comment="Vestibulum sodales class" DisplayName="Ornare interdum adipiscing viverra platea" EntityState="Added" Error="Lobortis primis" Key="Curae enim nascetur" OpenClose="True" ReferenceNumber="Pharetra parturient nam himenaeos" SearchCriteria="Aliquam imperdiet malesuada sed" StationId="73" StoreCode="Penatibus taciti integer quisque vestibulum" Status="Rutrum sapien semper sociis erat" Time="12/16/2012 14:38:31" TransactionId="82" TransactionNumber="Donec tellus dis" ValidationErrorMsg="Etiam vivamus eros"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="86" CashierId="78" Comment="Porttitor est" DisplayName="Tincidunt tristique" EntityState="Deleted" Error="Ultricies tempor hac" Key="Placerat leo mus nibh venenatis" OpenClose="False" ReferenceNumber="Tempus nec" SearchCriteria="Nisi tortor vestibulum non turpis" StationId="58" StoreCode="Varius nisl nunc vulputate" Status="Per adipiscing sed" Time="12/16/2012 14:38:31" TransactionId="79" TransactionNumber="Sem aliquam sit pulvinar sagittis" ValidationErrorMsg="Aenean fusce parturient vestibulum aliquet"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="94" CashierId="23" Comment="Vel nam odio" DisplayName="Sed mauris senectus nullam" EntityState="Unchanged" Error="Orci sociosqu" Key="Blandit dis commodo suscipit" OpenClose="True" ReferenceNumber="Curabitur conubia vestibulum" SearchCriteria="Phasellus aptent lorem consequat torquent" StationId="54" StoreCode="Adipiscing morbi auctor vehicula" Status="Ultrices cubilia" Time="12/16/2012 14:38:31" TransactionId="76" TransactionNumber="Congue cursus volutpat dapibus egestas" ValidationErrorMsg="Est maecenas dictum parturient"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="68" CashierId="10" Comment="Convallis lectus" DisplayName="Praesent pede accumsan nulla" EntityState="Added" Error="Libero euismod bibendum feugiat" Key="Dignissim proin quam dictumst eleifend" OpenClose="False" ReferenceNumber="Elementum facilisi quis" SearchCriteria="Vestibulum ligula litora augue" StationId="26" StoreCode="Leo habitant adipiscing" Status="Faucibus vestibulum hac" Time="12/16/2012 14:38:31" TransactionId="97" TransactionNumber="Mus gravida luctus nec" ValidationErrorMsg="Dolor iaculis urna fames facilisis"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="90" CashierId="30" Comment="Cras duis felis" DisplayName="Nunc parturient" EntityState="Deleted" Error="Amet fermentum" Key="Inceptos ipsum" OpenClose="True" ReferenceNumber="Ante interdum non" SearchCriteria="Fringilla vestibulum vestibulum habitasse" StationId="38" StoreCode="Hendrerit sed nascetur laoreet natoque" Status="Per magnis lacinia lobortis" Time="12/16/2012 14:38:31" TransactionId="43" TransactionNumber="Posuere arcu sem himenaeos" ValidationErrorMsg="Adipiscing potenti pretium justo sit"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="66" CashierId="47" Comment="Mattis parturient rhoncus lacus sodales" DisplayName="Vel imperdiet diam malesuada" EntityState="Detached" Error="Penatibus nam vestibulum" Key="Lorem pharetra mauris" OpenClose="False" ReferenceNumber="Eget magna elit placerat viverra" SearchCriteria="Vestibulum sed aliquam pulvinar" StationId="87" StoreCode="Adipiscing metus senectus enim" Status="Integer massa dis sagittis" Time="12/16/2012 14:38:31" TransactionId="39" TransactionNumber="Sociosqu suscipit mollis parturient erat" ValidationErrorMsg="Porttitor tincidunt montes vestibulum torquent"/>
+					</RMSDataAccessLayer:Batch.CloseTransactionBase>
+					<RMSDataAccessLayer:Batch.CloseCashier>
+						<RMSDataAccessLayer:Cashier Address="Tempus vestibulum adipiscing" CompanyName="Facilisis parturient" DisplayName="Sagittis augue dolor sed" EntityState="Detached" FirstName="Tortor sem quisque" Id="35" Key="Fermentum fames vivamus aliquam senectus" LastName="Felis aliquet vestibulum blandit" LoginName="Pulvinar parturient" Name="Elit sit turpis sociosqu suscipit" Password="Elementum per tempor integer" PhoneNumber="Vestibulum fringilla habitasse" Salutation="Commodo adipiscing ipsum torquent" SearchCriteria="Vel enim justo" SPassword="Vestibulum proin eget"/>
+					</RMSDataAccessLayer:Batch.CloseCashier>
+					<RMSDataAccessLayer:Batch.EntityKey>
+						<Data:EntityKey EntitySetName="Facilisis semper fermentum sociis mus" EntityContainerName="Vehicula quisque" IsTemporary="True"/>
+					</RMSDataAccessLayer:Batch.EntityKey>
+					<RMSDataAccessLayer:Batch.OpenCashier>
+						<RMSDataAccessLayer:Cashier Address="Vehicula netus tristique ultricies est" CompanyName="Nulla nostra" DisplayName="Adipiscing volutpat eros" EntityState="Deleted" FirstName="Parturient hac porta" Id="71" Key="Ornare leo vestibulum nibh" LastName="Blandit nisi platea" LoginName="Morbi vestibulum quisque" Name="Vestibulum commodo purus nisl" Password="Ultrices neque vivamus" PhoneNumber="Maecenas risus venenatis praesent" Salutation="Nunc adipiscing" SearchCriteria="Parturient conubia" SPassword="Aliquam aliquet"/>
+					</RMSDataAccessLayer:Batch.OpenCashier>
+					<RMSDataAccessLayer:Batch.Station>
+						<RMSDataAccessLayer:Station EntityState="Modified" MachineName="Odio velit accumsan primis vitae" ReceiptPrinterName="Vestibulum cubilia mus dapibus" StationCode="Class nec bibendum" StoreId="57" StationId="83"/>
+					</RMSDataAccessLayer:Batch.Station>
+					<RMSDataAccessLayer:Batch.TransactionBase>
+						<RMSDataAccessLayer:TransactionBase BatchId="17" CashierId="46" Comment="Curabitur euismod" DisplayName="Rutrum phasellus donec" EntityState="Added" Error="Non dictumst orci adipiscing eleifend" Key="Per consequat" OpenClose="True" ReferenceNumber="Feugiat convallis facilisi" SearchCriteria="Faucibus pede" StationId="98" StoreCode="Inceptos fusce vestibulum sem" Status="Etiam parturient sed dignissim habitant" Time="12/16/2012 14:38:31" TransactionId="96" TransactionNumber="Vestibulum interdum sapien lobortis" ValidationErrorMsg="Nascetur adipiscing parturient"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="89" CashierId="49" Comment="Vestibulum elementum pharetra" DisplayName="Semper quam lorem sit placerat" EntityState="Modified" Error="Sociis taciti pulvinar vestibulum" Key="Facilisis gravida sagittis iaculis tellus" OpenClose="False" ReferenceNumber="Tempor quis fermentum morbi" SearchCriteria="Urna cras fringilla" StationId="88" StoreCode="Habitasse nulla vel" Status="Duis adipiscing nunc amet parturient" Time="12/16/2012 14:38:31" TransactionId="49" TransactionNumber="Nam hendrerit" ValidationErrorMsg="Senectus sed dis proin est"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="60" CashierId="95" Comment="Hac vestibulum tempus" DisplayName="Augue ante leo dolor arcu" EntityState="Deleted" Error="Lacinia diam mus vestibulum eget" Key="Tortor elit" OpenClose="True" ReferenceNumber="Sociosqu himenaeos" SearchCriteria="Laoreet imperdiet fames" StationId="35" StoreCode="Non natoque penatibus" Status="Felis nec malesuada suscipit torquent" Time="12/16/2012 14:38:31" TransactionId="51" TransactionNumber="Adipiscing parturient ultrices turpis" ValidationErrorMsg="Enim varius erat"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="63" CashierId="19" Comment="Porttitor tincidunt tristique" DisplayName="Vestibulum ultricies venenatis vehicula posuere" EntityState="Detached" Error="Vestibulum vulputate curabitur" Key="Per potenti" OpenClose="False" ReferenceNumber="Adipiscing eros phasellus" SearchCriteria="Aenean ipsum" StationId="68" StoreCode="Sed sem convallis volutpat" Status="Parturient consequat" Time="12/16/2012 14:38:31" TransactionId="33" TransactionNumber="Nibh mauris" ValidationErrorMsg="Pretium justo"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="63" CashierId="43" Comment="Maecenas nullam rhoncus" DisplayName="Dignissim elementum" EntityState="Detached" Error="Lacus lorem vestibulum vestibulum" Key="Praesent adipiscing" OpenClose="True" ReferenceNumber="Aptent sodales" SearchCriteria="Auctor facilisis fermentum fringilla" StationId="63" StoreCode="Vel magna nisi nisl" Status="Parturient sit vestibulum accumsan" Time="12/16/2012 14:38:31" TransactionId="15" TransactionNumber="Viverra nam bibendum sed nunc" ValidationErrorMsg="Habitasse congue massa cursus"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="81" CashierId="39" Comment="Vestibulum aliquam" DisplayName="Metus adipiscing morbi neque" EntityState="Added" Error="Integer odio hendrerit himenaeos" Key="Netus quisque orci" OpenClose="False" ReferenceNumber="Vivamus nulla parturient" SearchCriteria="Imperdiet pede dictum" StationId="12" StoreCode="Lectus dictumst quis urna eleifend" Status="Aliquam aliquet blandit quam" Time="12/16/2012 14:38:31" TransactionId="62" TransactionNumber="Malesuada penatibus" ValidationErrorMsg="Porttitor commodo cras dis conubia"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="44" CashierId="89" Comment="Porta cubilia" DisplayName="Tincidunt facilisi faucibus" EntityState="Detached" Error="Purus dapibus duis egestas tristique" Key="Habitant risus" OpenClose="True" ReferenceNumber="Euismod libero" SearchCriteria="Nunc velit feugiat est" StationId="18" StoreCode="Ultricies curae amet ante" Status="Inceptos vestibulum vitae class" Time="12/16/2012 14:38:31" TransactionId="16" TransactionNumber="Vestibulum ligula hac adipiscing" ValidationErrorMsg="Venenatis litora leo mus"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="32" CashierId="43" Comment="Parturient donec vestibulum" DisplayName="Gravida interdum" EntityState="Deleted" Error="Etiam nec luctus" Key="Lobortis iaculis non vulputate lacinia" OpenClose="False" ReferenceNumber="Arcu nascetur magnis" SearchCriteria="Diam laoreet" StationId="59" StoreCode="Per pharetra natoque mauris" Status="Mattis eget elit" Time="12/16/2012 14:38:31" TransactionId="40" TransactionNumber="Posuere mollis" ValidationErrorMsg="Sed enim potenti"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="96" CashierId="38" Comment="Sem erat fusce montes nostra" DisplayName="Curabitur lorem sit" EntityState="Unchanged" Error="Morbi ornare phasellus vestibulum" Key="Placerat nulla" OpenClose="True" ReferenceNumber="Eros proin" SearchCriteria="Pretium pulvinar sagittis rhoncus" StationId="61" StoreCode="Adipiscing parturient consequat vestibulum sociosqu" Status="Senectus augue" Time="12/16/2012 14:38:31" TransactionId="63" TransactionNumber="Platea vel nibh convallis" ValidationErrorMsg="Vestibulum nisi nam primis dignissim"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="28" CashierId="10" Comment="Sodales nisl suscipit adipiscing" DisplayName="Sed nunc odio" EntityState="Modified" Error="Dis dolor orci" Key="Rutrum sapien" OpenClose="False" ReferenceNumber="Fames pede" SearchCriteria="Est torquent" StationId="11" StoreCode="Parturient elementum ipsum" Status="Felis viverra" Time="12/16/2012 14:38:31" TransactionId="81" TransactionNumber="Justo ultrices aliquam hac vestibulum" ValidationErrorMsg="Leo quam integer vestibulum"/>
+					</RMSDataAccessLayer:Batch.TransactionBase>
+				</RMSDataAccessLayer:Batch>
+			</RMSDataAccessLayer:TransactionBase.CloseBatch>
+			<RMSDataAccessLayer:TransactionBase.Customer>
+				<RMSDataAccessLayer:Person Address="Adipiscing parturient non nullam" CompanyName="Aptent auctor" DisplayName="Vestibulum tincidunt facilisi vestibulum laoreet" EntityState="Detached" FirstName="Faucibus per natoque" Id="12" Key="Sed tristique" LastName="Ultricies nulla" Name="Elit posuere potenti pretium sem" PhoneNumber="Nisl tellus tempor" Salutation="Inceptos nunc tristique vestibulum odio" SearchCriteria="Orci tempus sed tortor dis">
+					<RMSDataAccessLayer:Person.EntityKey>
+						<Data:EntityKey EntitySetName="Adipiscing nostra nunc leo" EntityContainerName="Duis montes vestibulum hac phasellus" IsTemporary="True"/>
+					</RMSDataAccessLayer:Person.EntityKey>
+					<RMSDataAccessLayer:Person.Pass>
+						<RMSDataAccessLayer:Pass CustomerId="83" DisplayName="Porta congue rhoncus" EndDate="12/16/2012 14:38:31" EntityState="Detached" FreePass="True" Key="Sit adipiscing enim" PassNumber="Cursus sodales vel parturient purus" PassId="12" SearchCriteria="Erat dictum vestibulum" StartDate="12/16/2012 14:38:31" Status="Habitant eros nibh"/>
+						<RMSDataAccessLayer:Pass CustomerId="29" DisplayName="Risus inceptos venenatis viverra" EndDate="12/16/2012 14:38:31" EntityState="Added" FreePass="False" Key="Lectus vestibulum" PassNumber="Vulputate libero nam aliquam" PassId="51" SearchCriteria="Interdum adipiscing lobortis curabitur" StartDate="12/16/2012 14:38:31" Status="Ligula velit parturient nascetur vestibulum"/>
+						<RMSDataAccessLayer:Pass CustomerId="66" DisplayName="Vestibulum litora sed integer" EndDate="12/16/2012 14:38:31" EntityState="Unchanged" FreePass="True" Key="Vitae class luctus pharetra placerat" PassNumber="Magnis quisque phasellus nisi dis" PassId="77" SearchCriteria="Est nisl consequat" StartDate="12/16/2012 14:38:31" Status="Convallis vivamus dignissim aliquam pulvinar"/>
+						<RMSDataAccessLayer:Pass CustomerId="44" DisplayName="Sagittis adipiscing" EndDate="12/16/2012 14:38:31" EntityState="Added" FreePass="False" Key="Aliquet elementum blandit" PassNumber="Mattis nunc facilisis fermentum" PassId="45" SearchCriteria="Commodo odio" StartDate="12/16/2012 14:38:31" Status="Fringilla curae"/>
+						<RMSDataAccessLayer:Pass CustomerId="62" DisplayName="Habitasse donec orci mauris" EndDate="12/16/2012 14:38:31" EntityState="Deleted" FreePass="True" Key="Pede hac" PassNumber="Etiam leo parturient" PassId="99" SearchCriteria="Mollis hendrerit" StartDate="12/16/2012 14:38:31" Status="Montes vestibulum senectus"/>
+						<RMSDataAccessLayer:Pass CustomerId="40" DisplayName="Sociosqu suscipit conubia" EndDate="12/16/2012 14:38:31" EntityState="Deleted" FreePass="False" Key="Nostra vestibulum" PassNumber="Ornare quam torquent" PassId="82" SearchCriteria="Quis adipiscing" StartDate="12/16/2012 14:38:31" Status="Cubilia ultrices parturient dapibus vestibulum"/>
+						<RMSDataAccessLayer:Pass CustomerId="27" DisplayName="Vehicula mus egestas platea" EndDate="12/16/2012 14:38:31" EntityState="Added" FreePass="True" Key="Volutpat fusce" PassNumber="Himenaeos maecenas" PassId="26" SearchCriteria="Lorem morbi" StartDate="12/16/2012 14:38:31" Status="Praesent nulla accumsan"/>
+						<RMSDataAccessLayer:Pass CustomerId="45" DisplayName="Imperdiet primis malesuada" EndDate="12/16/2012 14:38:31" EntityState="Added" FreePass="False" Key="Proin bibendum penatibus" PassNumber="Rutrum urna cras" PassId="95" SearchCriteria="Nec augue" StartDate="12/16/2012 14:38:31" Status="Dolor non per"/>
+						<RMSDataAccessLayer:Pass CustomerId="55" DisplayName="Duis nunc vestibulum euismod amet" EndDate="12/16/2012 14:38:31" EntityState="Unchanged" FreePass="True" Key="Dictumst ante arcu sapien fames" PassNumber="Sed diam felis porttitor" PassId="35" SearchCriteria="Adipiscing ipsum eget elit" StartDate="12/16/2012 14:38:31" Status="Enim feugiat parturient"/>
+						<RMSDataAccessLayer:Pass CustomerId="57" DisplayName="Eleifend erat justo sem" EndDate="12/16/2012 14:38:31" EntityState="Unchanged" FreePass="False" Key="Eros sit facilisi gravida vestibulum" PassNumber="Nibh vel faucibus nisi" PassId="15" SearchCriteria="Habitant iaculis semper tincidunt lacinia" StartDate="12/16/2012 14:38:31" Status="Laoreet sociis natoque nam taciti"/>
+					</RMSDataAccessLayer:Person.Pass>
+					<RMSDataAccessLayer:Person.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="15" CashierId="62" Comment="Posuere turpis adipiscing interdum varius" DisplayName="Lobortis aenean" EntityState="Detached" Error="Pede parturient potenti" Key="Est quam mauris vestibulum nullam" OpenClose="True" ReferenceNumber="Pretium nascetur quis aptent" SearchCriteria="Pharetra placerat hac rhoncus pulvinar" StationId="41" StoreCode="Vestibulum urna cras" Status="Auctor sodales sagittis leo mus" Time="12/16/2012 14:38:31" TransactionId="82" TransactionNumber="Duis viverra ultricies lacus aliquam" ValidationErrorMsg="Adipiscing parturient venenatis"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="65" CashierId="87" Comment="Integer lorem nunc vestibulum magna" DisplayName="Congue vulputate vestibulum" EntityState="Added" Error="Quisque vivamus cursus" Key="Massa senectus curabitur metus aliquam" OpenClose="False" ReferenceNumber="Adipiscing morbi amet parturient nec" SearchCriteria="Dictum ante" StationId="32" StoreCode="Per vestibulum arcu sed adipiscing" Status="Non neque vestibulum" Time="12/16/2012 14:38:31" TransactionId="60" TransactionNumber="Sociosqu diam aliquet sem lectus" ValidationErrorMsg="Parturient suscipit netus"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="10" CashierId="56" Comment="Vestibulum phasellus torquent libero ligula" DisplayName="Litora vestibulum luctus" EntityState="Deleted" Error="Nulla porta purus magnis risus" Key="Ultrices adipiscing consequat" OpenClose="True" ReferenceNumber="Eget elit enim blandit mattis" SearchCriteria="Mauris convallis dignissim mollis" StationId="60" StoreCode="Facilisis conubia eros" Status="Commodo elementum sit erat vehicula" Time="12/16/2012 14:38:31" TransactionId="50" TransactionNumber="Parturient velit nibh vitae" ValidationErrorMsg="Vestibulum volutpat cubilia"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="13" CashierId="30" Comment="Montes dapibus" DisplayName="Maecenas praesent vestibulum" EntityState="Modified" Error="Accumsan egestas vel nisi bibendum" Key="Adipiscing class dictumst" OpenClose="False" ReferenceNumber="Nam parturient nostra" SearchCriteria="Vestibulum vestibulum sed fermentum eleifend" StationId="60" StoreCode="Nunc platea primis" Status="Fringilla nisl facilisi ornare faucibus" Time="12/16/2012 14:38:31" TransactionId="57" TransactionNumber="Habitasse rutrum curae sapien" ValidationErrorMsg="Euismod odio hendrerit himenaeos"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="20" CashierId="54" Comment="Orci adipiscing imperdiet" DisplayName="Parturient habitant vestibulum semper malesuada" EntityState="Added" Error="Sociis vestibulum pede adipiscing penatibus" Key="Donec taciti parturient" OpenClose="True" ReferenceNumber="Porttitor tincidunt inceptos etiam vestibulum" SearchCriteria="Quam quis tellus" StationId="72" StoreCode="Tristique dis vestibulum cras interdum" Status="Urna feugiat tempor fusce gravida" Time="12/16/2012 14:38:31" TransactionId="84" TransactionNumber="Ultricies adipiscing" ValidationErrorMsg="Duis parturient vestibulum"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="29" CashierId="82" Comment="Vestibulum venenatis vulputate" DisplayName="Adipiscing curabitur" EntityState="Detached" Error="Est iaculis lobortis lacinia" Key="Hac tempus nascetur pharetra" OpenClose="False" ReferenceNumber="Tortor turpis phasellus parturient placerat" SearchCriteria="Lorem consequat nunc" StationId="47" StoreCode="Pulvinar convallis morbi dignissim leo" Status="Varius amet ante" Time="12/16/2012 14:38:31" TransactionId="11" TransactionNumber="Aenean mauris" ValidationErrorMsg="Sagittis vestibulum"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="51" CashierId="67" Comment="Vestibulum elementum" DisplayName="Laoreet arcu diam" EntityState="Added" Error="Nullam aptent senectus adipiscing parturient" Key="Nulla eget elit auctor" OpenClose="True" ReferenceNumber="Congue sociosqu facilisis" SearchCriteria="Vestibulum proin fermentum" StationId="76" StoreCode="Natoque posuere" Status="Mus fringilla cursus" Time="12/16/2012 14:38:31" TransactionId="89" TransactionNumber="Augue nec habitasse suscipit" ValidationErrorMsg="Potenti non pretium torquent ultrices"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="16" CashierId="66" Comment="Hendrerit vehicula" DisplayName="Vestibulum volutpat" EntityState="Added" Error="Maecenas enim" Key="Adipiscing per erat" OpenClose="False" ReferenceNumber="Rhoncus parturient" SearchCriteria="Sed dictum dolor himenaeos sem" StationId="42" StoreCode="Vestibulum imperdiet nisi" Status="Eros sodales nibh" Time="12/16/2012 14:38:31" TransactionId="14" TransactionNumber="Fames vestibulum viverra adipiscing" ValidationErrorMsg="Lectus praesent parturient"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="20" CashierId="97" Comment="Libero malesuada accumsan ligula aliquam" DisplayName="Integer bibendum penatibus nisl nunc" EntityState="Detached" Error="Sit vestibulum vestibulum" Key="Dictumst adipiscing" OpenClose="True" ReferenceNumber="Eleifend quisque parturient facilisi vestibulum" SearchCriteria="Faucibus felis" StationId="96" StoreCode="Luctus vestibulum vel" Status="Litora ipsum porttitor tincidunt habitant" Time="12/16/2012 14:38:31" TransactionId="30" TransactionNumber="Tristique ultricies odio" ValidationErrorMsg="Orci inceptos interdum pede vivamus"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="70" CashierId="47" Comment="Adipiscing venenatis nam quam" DisplayName="Sed justo" EntityState="Unchanged" Error="Quis parturient" Key="Vestibulum magnis mattis lacus" OpenClose="False" ReferenceNumber="Dis vestibulum vulputate lobortis" SearchCriteria="Urna cras lorem mauris nascetur" StationId="86" StoreCode="Magna parturient est" Status="Pharetra adipiscing" Time="12/16/2012 14:38:31" TransactionId="78" TransactionNumber="Mollis massa" ValidationErrorMsg="Placerat curabitur vestibulum"/>
+					</RMSDataAccessLayer:Person.Transaction>
+				</RMSDataAccessLayer:Person>
+			</RMSDataAccessLayer:TransactionBase.Customer>
+			<RMSDataAccessLayer:TransactionBase.CurrentTransactionEntry>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Aliquam nec adipiscing" EntityState="Deleted" Error="Aliquet volutpat blandit" ItemId="93" StoreID="16" TransactionId="13" Taxable="False" TransactionEntryId="68" ValidationErrorMsg="Hac iaculis porttitor leo">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Netus nec" EntityContainerName="Mus neque lacinia eget vestibulum" IsTemporary="False"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Quis urna" DateCreated="12/16/2012 14:38:31" Description="Cras commodo maecenas duis" Department="Parturient non" DisplayName="Praesent taciti" ExtendedDescription="Nunc conubia" EntityState="Deleted" ItemLookupCode="Amet habitasse" ItemId="50" ItemNotDiscountable="True" Inactive="False" Key="Ante arcu per tellus tempor" Quantity="238.55" SearchCriteria="Tempus hendrerit cubilia himenaeos tortor"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="52" CashierId="62" Comment="Dapibus accumsan egestas sed" DisplayName="Lacus bibendum" EntityState="Added" Error="Turpis imperdiet vestibulum vestibulum" Key="Adipiscing malesuada sem sit" OpenClose="True" ReferenceNumber="Varius lorem vel magna nam" SearchCriteria="Parturient euismod" StationId="88" StoreCode="Massa metus dis" Status="Vestibulum penatibus sed" Time="12/16/2012 14:38:31" TransactionId="39" TransactionNumber="Aenean est diam dictumst" ValidationErrorMsg="Eleifend morbi feugiat gravida mauris"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+			</RMSDataAccessLayer:TransactionBase.CurrentTransactionEntry>
+			<RMSDataAccessLayer:TransactionBase.Cashier>
+				<RMSDataAccessLayer:Cashier Address="Odio luctus hendrerit magnis proin" CompanyName="Nam parturient mattis" DisplayName="Sed vestibulum himenaeos mauris" EntityState="Modified" FirstName="Mollis bibendum orci" Id="97" Key="Pede quam montes vestibulum augue" LastName="Quis aliquam imperdiet" LoginName="Netus nulla orci vestibulum" Name="Adipiscing dis" Password="Aliquam integer" PhoneNumber="Hendrerit per himenaeos sed" Salutation="Diam nulla adipiscing" SearchCriteria="Proin augue integer" SPassword="Sem porta adipiscing tellus">
+					<RMSDataAccessLayer:Cashier.Batch1>
+						<RMSDataAccessLayer:Batch BatchId="71" CloseTransactions="83" CloseTransactionsEx="49" EndingCashEx="136.1" EntityState="Detached" OpenTransactionsEx="60" OpeningCashier="41" OpenTransactions="88" OpeningCash="578.08" OpeningTime="12/16/2012 14:38:31" StationId="74" Sales="941.31" SalesEx="727.58" Status="Sed dis dignissim" TotalChangeEx="840.34" TotalTenderEx="946.2"/>
+						<RMSDataAccessLayer:Batch BatchId="59" CloseTransactions="88" CloseTransactionsEx="13" EndingCashEx="587.07" EntityState="Modified" OpenTransactionsEx="88" OpeningCashier="76" OpenTransactions="64" OpeningCash="906.3" OpeningTime="12/16/2012 14:38:31" StationId="76" Sales="281.4" SalesEx="310.65" Status="Nunc odio elementum euismod" TotalChangeEx="584.92" TotalTenderEx="714.04"/>
+						<RMSDataAccessLayer:Batch BatchId="61" CloseTransactions="75" CloseTransactionsEx="60" EndingCashEx="918.44" EntityState="Deleted" OpenTransactionsEx="89" OpeningCashier="99" OpenTransactions="85" OpeningCash="922.14" OpeningTime="12/16/2012 14:38:31" StationId="22" Sales="309.7" SalesEx="904.81" Status="Vehicula est facilisis hac" TotalChangeEx="770.31" TotalTenderEx="977.97"/>
+						<RMSDataAccessLayer:Batch BatchId="73" CloseTransactions="30" CloseTransactionsEx="89" EndingCashEx="368.16" EntityState="Detached" OpenTransactionsEx="35" OpeningCashier="72" OpenTransactions="26" OpeningCash="323.18" OpeningTime="12/16/2012 14:38:31" StationId="67" Sales="127.23" SalesEx="879.93" Status="Nostra vestibulum fermentum" TotalChangeEx="408.59" TotalTenderEx="313.73"/>
+						<RMSDataAccessLayer:Batch BatchId="45" CloseTransactions="55" CloseTransactionsEx="19" EndingCashEx="784.58" EntityState="Modified" OpenTransactionsEx="50" OpeningCashier="30" OpenTransactions="63" OpeningCash="318.12" OpeningTime="12/16/2012 14:38:31" StationId="12" Sales="480.82" SalesEx="701.32" Status="Adipiscing parturient orci vestibulum felis" TotalChangeEx="831.68" TotalTenderEx="214.31"/>
+						<RMSDataAccessLayer:Batch BatchId="66" CloseTransactions="69" CloseTransactionsEx="72" EndingCashEx="232.56" EntityState="Modified" OpenTransactionsEx="26" OpeningCashier="34" OpenTransactions="23" OpeningCash="917.97" OpeningTime="12/16/2012 14:38:31" StationId="69" Sales="575.49" SalesEx="159.44" Status="Fringilla leo pede habitasse ipsum" TotalChangeEx="407.7" TotalTenderEx="153.87"/>
+						<RMSDataAccessLayer:Batch BatchId="46" CloseTransactions="13" CloseTransactionsEx="97" EndingCashEx="645.25" EntityState="Deleted" OpenTransactionsEx="82" OpeningCashier="43" OpenTransactions="99" OpeningCash="901.73" OpeningTime="12/16/2012 14:38:31" StationId="92" Sales="528.75" SalesEx="213.25" Status="Mus hendrerit" TotalChangeEx="806.63" TotalTenderEx="881.6"/>
+						<RMSDataAccessLayer:Batch BatchId="46" CloseTransactions="83" CloseTransactionsEx="78" EndingCashEx="688.01" EntityState="Modified" OpenTransactionsEx="85" OpeningCashier="31" OpenTransactions="65" OpeningCash="657.35" OpeningTime="12/16/2012 14:38:31" StationId="98" Sales="285.37" SalesEx="670.97" Status="Vestibulum justo feugiat" TotalChangeEx="830.84" TotalTenderEx="872.08"/>
+						<RMSDataAccessLayer:Batch BatchId="62" CloseTransactions="60" CloseTransactionsEx="71" EndingCashEx="179.32" EntityState="Unchanged" OpenTransactionsEx="68" OpeningCashier="16" OpenTransactions="35" OpeningCash="809.42" OpeningTime="12/16/2012 14:38:31" StationId="24" Sales="619.53" SalesEx="213.71" Status="Lacus quam" TotalChangeEx="914.37" TotalTenderEx="228.98"/>
+						<RMSDataAccessLayer:Batch BatchId="43" CloseTransactions="93" CloseTransactionsEx="11" EndingCashEx="316.89" EntityState="Detached" OpenTransactionsEx="56" OpeningCashier="74" OpenTransactions="47" OpeningCash="256.17" OpeningTime="12/16/2012 14:38:31" StationId="95" Sales="269.48" SalesEx="727.58" Status="Gravida iaculis" TotalChangeEx="942.99" TotalTenderEx="622.22"/>
+					</RMSDataAccessLayer:Cashier.Batch1>
+					<RMSDataAccessLayer:Cashier.Batch>
+						<RMSDataAccessLayer:Batch BatchId="86" CloseTransactions="35" CloseTransactionsEx="14" EndingCashEx="689.48" EntityState="Added" OpenTransactionsEx="34" OpeningCashier="12" OpenTransactions="83" OpeningCash="438.76" OpeningTime="12/16/2012 14:38:31" StationId="90" Sales="610.15" SalesEx="969.04" Status="Magnis enim" TotalChangeEx="159.29" TotalTenderEx="785.46"/>
+						<RMSDataAccessLayer:Batch BatchId="61" CloseTransactions="55" CloseTransactionsEx="95" EndingCashEx="754.69" EntityState="Deleted" OpenTransactionsEx="24" OpeningCashier="92" OpenTransactions="57" OpeningCash="925.33" OpeningTime="12/16/2012 14:38:31" StationId="84" Sales="797.19" SalesEx="807.75" Status="Vestibulum phasellus erat sit conubia" TotalChangeEx="221.26" TotalTenderEx="577.42"/>
+						<RMSDataAccessLayer:Batch BatchId="76" CloseTransactions="71" CloseTransactionsEx="19" EndingCashEx="452.23" EntityState="Modified" OpenTransactionsEx="93" OpeningCashier="45" OpenTransactions="90" OpeningCash="685.57" OpeningTime="12/16/2012 14:38:31" StationId="24" Sales="534.9" SalesEx="685.43" Status="Proin suscipit torquent" TotalChangeEx="641.7" TotalTenderEx="322.02"/>
+						<RMSDataAccessLayer:Batch BatchId="86" CloseTransactions="16" CloseTransactionsEx="78" EndingCashEx="365.95" EntityState="Deleted" OpenTransactionsEx="72" OpeningCashier="24" OpenTransactions="76" OpeningCash="841.66" OpeningTime="12/16/2012 14:38:31" StationId="41" Sales="491.37" SalesEx="399.63" Status="Adipiscing augue" TotalChangeEx="347.07" TotalTenderEx="427.62"/>
+						<RMSDataAccessLayer:Batch BatchId="51" CloseTransactions="11" CloseTransactionsEx="84" EndingCashEx="616.88" EntityState="Detached" OpenTransactionsEx="59" OpeningCashier="47" OpenTransactions="22" OpeningCash="815.15" OpeningTime="12/16/2012 14:38:31" StationId="99" Sales="749.35" SalesEx="276.61" Status="Mattis mauris mollis consequat" TotalChangeEx="984.02" TotalTenderEx="169.61"/>
+						<RMSDataAccessLayer:Batch BatchId="42" CloseTransactions="99" CloseTransactionsEx="36" EndingCashEx="967.41" EntityState="Unchanged" OpenTransactionsEx="14" OpeningCashier="84" OpenTransactions="50" OpeningCash="275.05" OpeningTime="12/16/2012 14:38:31" StationId="82" Sales="990.35" SalesEx="545.92" Status="Parturient cubilia dapibus" TotalChangeEx="504.16" TotalTenderEx="324.25"/>
+						<RMSDataAccessLayer:Batch BatchId="22" CloseTransactions="56" CloseTransactionsEx="90" EndingCashEx="200.51" EntityState="Modified" OpenTransactionsEx="18" OpeningCashier="36" OpenTransactions="73" OpeningCash="927.65" OpeningTime="12/16/2012 14:38:31" StationId="64" Sales="403.57" SalesEx="443.81" Status="Ultrices montes eros" TotalChangeEx="631.95" TotalTenderEx="586.56"/>
+						<RMSDataAccessLayer:Batch BatchId="74" CloseTransactions="49" CloseTransactionsEx="19" EndingCashEx="629.31" EntityState="Detached" OpenTransactionsEx="74" OpeningCashier="57" OpenTransactions="61" OpeningCash="369.09" OpeningTime="12/16/2012 14:38:31" StationId="99" Sales="159.46" SalesEx="393.7" Status="Nibh nisi vestibulum" TotalChangeEx="787.91" TotalTenderEx="869.42"/>
+						<RMSDataAccessLayer:Batch BatchId="29" CloseTransactions="35" CloseTransactionsEx="16" EndingCashEx="868.01" EntityState="Added" OpenTransactionsEx="87" OpeningCashier="59" OpenTransactions="61" OpeningCash="770.29" OpeningTime="12/16/2012 14:38:31" StationId="20" Sales="385.02" SalesEx="749.28" Status="Convallis egestas" TotalChangeEx="794.23" TotalTenderEx="389.03"/>
+						<RMSDataAccessLayer:Batch BatchId="54" CloseTransactions="21" CloseTransactionsEx="44" EndingCashEx="714.23" EntityState="Detached" OpenTransactionsEx="55" OpeningCashier="85" OpenTransactions="64" OpeningCash="389.84" OpeningTime="12/16/2012 14:38:31" StationId="44" Sales="191.68" SalesEx="282.53" Status="Dolor vel nam nisl fames" TotalChangeEx="452.16" TotalTenderEx="344.13"/>
+					</RMSDataAccessLayer:Cashier.Batch>
+					<RMSDataAccessLayer:Cashier.CashierLog>
+						<RMSDataAccessLayer:CashierLog CashierLogId="15" EntityState="Unchanged" LoginTime="12/16/2012 14:38:31" MachineName="Volutpat quis ornare" PersonId="88" Status="Maecenas urna praesent"/>
+						<RMSDataAccessLayer:CashierLog CashierLogId="71" EntityState="Detached" LoginTime="12/16/2012 14:38:31" MachineName="Cras nec adipiscing accumsan" PersonId="73" Status="Lacinia duis bibendum nunc"/>
+						<RMSDataAccessLayer:CashierLog CashierLogId="74" EntityState="Deleted" LoginTime="12/16/2012 14:38:31" MachineName="Amet himenaeos" PersonId="52" Status="Laoreet ante arcu imperdiet platea"/>
+						<RMSDataAccessLayer:CashierLog CashierLogId="37" EntityState="Modified" LoginTime="12/16/2012 14:38:31" MachineName="Lorem malesuada diam natoque non" PersonId="26" Status="Primis parturient eget"/>
+						<RMSDataAccessLayer:CashierLog CashierLogId="92" EntityState="Deleted" LoginTime="12/16/2012 14:38:31" MachineName="Elit penatibus posuere rutrum vestibulum" PersonId="27" Status="Magna potenti sapien"/>
+						<RMSDataAccessLayer:CashierLog CashierLogId="52" EntityState="Deleted" LoginTime="12/16/2012 14:38:31" MachineName="Massa vestibulum metus" PersonId="39" Status="Enim porttitor erat"/>
+						<RMSDataAccessLayer:CashierLog CashierLogId="75" EntityState="Added" LoginTime="12/16/2012 14:38:31" MachineName="Pretium eros" PersonId="99" Status="Nibh semper rhoncus dictumst sodales"/>
+						<RMSDataAccessLayer:CashierLog CashierLogId="71" EntityState="Deleted" LoginTime="12/16/2012 14:38:31" MachineName="Adipiscing per sed tincidunt" PersonId="40" Status="Nisi sociis taciti morbi nisl"/>
+						<RMSDataAccessLayer:CashierLog CashierLogId="98" EntityState="Modified" LoginTime="12/16/2012 14:38:31" MachineName="Nunc neque odio tristique" PersonId="65" Status="Eleifend parturient"/>
+						<RMSDataAccessLayer:CashierLog CashierLogId="98" EntityState="Unchanged" LoginTime="12/16/2012 14:38:31" MachineName="Vestibulum facilisi" PersonId="14" Status="Ultricies venenatis viverra"/>
+					</RMSDataAccessLayer:Cashier.CashierLog>
+					<RMSDataAccessLayer:Cashier.EntityKey>
+						<Data:EntityKey EntitySetName="Morbi non nulla" EntityContainerName="Dignissim arcu lorem diam" IsTemporary="False"/>
+					</RMSDataAccessLayer:Cashier.EntityKey>
+					<RMSDataAccessLayer:Cashier.Pass>
+						<RMSDataAccessLayer:Pass CustomerId="33" DisplayName="Malesuada penatibus urna dolor" EndDate="12/16/2012 14:38:31" EntityState="Deleted" FreePass="False" Key="Fames parturient est dictumst felis" PassNumber="Eleifend nostra facilisi porttitor" PassId="17" SearchCriteria="Cras ipsum tincidunt" StartDate="12/16/2012 14:38:31" Status="Vestibulum integer"/>
+						<RMSDataAccessLayer:Pass CustomerId="96" DisplayName="Duis ornare vestibulum" EndDate="12/16/2012 14:38:31" EntityState="Unchanged" FreePass="True" Key="Platea faucibus justo tristique" PassNumber="Adipiscing lacus lorem hac nunc" PassId="66" SearchCriteria="Quisque habitant" StartDate="12/16/2012 14:38:31" Status="Ultricies magna vivamus amet inceptos"/>
+						<RMSDataAccessLayer:Pass CustomerId="26" DisplayName="Ante interdum parturient venenatis vulputate" EndDate="12/16/2012 14:38:31" EntityState="Added" FreePass="False" Key="Arcu leo" PassNumber="Lobortis aliquam primis" PassId="70" SearchCriteria="Massa aliquet rutrum diam vestibulum" StartDate="12/16/2012 14:38:31" Status="Blandit commodo eget"/>
+						<RMSDataAccessLayer:Pass CustomerId="78" DisplayName="Metus elit vestibulum conubia sapien" EndDate="12/16/2012 14:38:31" EntityState="Added" FreePass="True" Key="Cubilia nascetur" PassNumber="Pharetra mus nec curabitur phasellus" PassId="69" SearchCriteria="Semper dapibus enim erat" StartDate="12/16/2012 14:38:31" Status="Placerat consequat morbi egestas eros"/>
+						<RMSDataAccessLayer:Pass CustomerId="75" DisplayName="Nibh euismod feugiat" EndDate="12/16/2012 14:38:31" EntityState="Modified" FreePass="False" Key="Nisi gravida non convallis" PassNumber="Iaculis adipiscing lacinia per" PassId="32" SearchCriteria="Nisl sed neque" StartDate="12/16/2012 14:38:31" Status="Parturient pulvinar sagittis netus"/>
+						<RMSDataAccessLayer:Pass CustomerId="16" DisplayName="Nulla nunc sem sit vestibulum" EndDate="12/16/2012 14:38:31" EntityState="Detached" FreePass="True" Key="Dignissim elementum vestibulum" PassNumber="Senectus porta" PassId="54" SearchCriteria="Odio sociis" StartDate="12/16/2012 14:38:31" Status="Vel purus nam"/>
+						<RMSDataAccessLayer:Pass CustomerId="30" DisplayName="Sed dis" EndDate="12/16/2012 14:38:31" EntityState="Added" FreePass="False" Key="Laoreet risus velit adipiscing" PassNumber="Natoque parturient est" PassId="43" SearchCriteria="Orci posuere sociosqu potenti" StartDate="12/16/2012 14:38:31" Status="Taciti vitae pede"/>
+						<RMSDataAccessLayer:Pass CustomerId="68" DisplayName="Tellus hac pretium vestibulum" EndDate="12/16/2012 14:38:31" EntityState="Modified" FreePass="True" Key="Tempor leo quam" PassNumber="Suscipit torquent tempus rhoncus" PassId="50" SearchCriteria="Class tortor turpis" StartDate="12/16/2012 14:38:31" Status="Varius aenean facilisis quis"/>
+						<RMSDataAccessLayer:Pass CustomerId="56" DisplayName="Mus urna curae mauris" EndDate="12/16/2012 14:38:31" EntityState="Added" FreePass="False" Key="Donec nullam fermentum" PassNumber="Cras nec vestibulum etiam duis" PassId="16" SearchCriteria="Nunc sodales aptent" StartDate="12/16/2012 14:38:31" Status="Amet fringilla fusce"/>
+						<RMSDataAccessLayer:Pass CustomerId="28" DisplayName="Viverra auctor ultrices adipiscing parturient" EndDate="12/16/2012 14:38:31" EntityState="Detached" FreePass="True" Key="Vestibulum vehicula" PassNumber="Habitasse lorem ante aliquam" PassId="87" SearchCriteria="Volutpat maecenas non" StartDate="12/16/2012 14:38:31" Status="Vestibulum congue morbi arcu"/>
+					</RMSDataAccessLayer:Cashier.Pass>
+					<RMSDataAccessLayer:Cashier.TransactionBase>
+						<RMSDataAccessLayer:TransactionBase BatchId="13" CashierId="18" Comment="Faucibus vulputate pede habitant" DisplayName="Quam inceptos quisque vivamus" EntityState="Deleted" Error="Interdum parturient quis urna cras" Key="Curabitur sit" OpenClose="False" ReferenceNumber="Vestibulum vel tempor aliquam duis" SearchCriteria="Tempus lobortis" StationId="10" StoreCode="Nascetur vestibulum" Status="Phasellus nam nunc" Time="12/16/2012 14:38:31" TransactionId="88" TransactionNumber="Amet ante aliquet" ValidationErrorMsg="Purus sed risus pharetra blandit"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="57" CashierId="28" Comment="Commodo dis arcu tortor" DisplayName="Diam velit" EntityState="Deleted" Error="Eget est adipiscing turpis" Key="Hac elit" OpenClose="True" ReferenceNumber="Vitae parturient placerat conubia pulvinar" SearchCriteria="Sagittis senectus vestibulum vestibulum adipiscing" StationId="55" StoreCode="Aenean class leo dapibus" Status="Enim varius cubilia sociosqu" Time="12/16/2012 14:38:31" TransactionId="13" TransactionNumber="Mus parturient" ValidationErrorMsg="Mauris curae nullam"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="19" CashierId="95" Comment="Vestibulum consequat vestibulum donec" DisplayName="Adipiscing etiam egestas convallis" EntityState="Added" Error="Euismod nec aptent feugiat erat" Key="Gravida non iaculis" OpenClose="False" ReferenceNumber="Fusce lacinia dignissim laoreet natoque" SearchCriteria="Elementum facilisis parturient auctor" StationId="61" StoreCode="Eros suscipit" Status="Vestibulum fermentum vestibulum congue cursus" Time="12/16/2012 14:38:31" TransactionId="35" TransactionNumber="Per dictum fringilla torquent habitasse" ValidationErrorMsg="Lectus hendrerit ultrices"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="69" CashierId="97" Comment="Lorem nibh posuere morbi" DisplayName="Nisi sed nisl himenaeos" EntityState="Detached" Error="Sem adipiscing imperdiet" Key="Nulla vehicula malesuada parturient sit" OpenClose="True" ReferenceNumber="Vel nam" SearchCriteria="Penatibus sed" StationId="40" StoreCode="Nunc vestibulum maecenas potenti" Status="Libero volutpat ligula" Time="12/16/2012 14:38:31" TransactionId="95" TransactionNumber="Porttitor praesent proin tincidunt vestibulum" ValidationErrorMsg="Accumsan dis odio"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="17" CashierId="91" Comment="Augue dolor litora tristique" DisplayName="Fames bibendum adipiscing" EntityState="Deleted" Error="Ultricies luctus dictumst venenatis est" Key="Orci magnis vulputate pretium" OpenClose="False" ReferenceNumber="Eleifend rhoncus curabitur pede" SearchCriteria="Facilisi phasellus felis ipsum mattis" StationId="20" StoreCode="Hac faucibus quam consequat habitant" Status="Sodales mauris" Time="12/16/2012 14:38:31" TransactionId="78" TransactionNumber="Viverra inceptos aliquam interdum integer" ValidationErrorMsg="Justo mollis lacus"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="71" CashierId="45" Comment="Quisque convallis leo" DisplayName="Vivamus mus lobortis montes nostra" EntityState="Unchanged" Error="Parturient dignissim nec ornare" Key="Elementum facilisis aliquam aliquet non" OpenClose="True" ReferenceNumber="Per lorem fermentum magna vestibulum" SearchCriteria="Quis urna" StationId="68" StoreCode="Habitasse sed vestibulum" Status="Fringilla cras platea blandit" Time="12/16/2012 14:38:31" TransactionId="54" TransactionNumber="Primis sem rutrum" ValidationErrorMsg="Nascetur hendrerit himenaeos"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="82" CashierId="38" Comment="Pharetra duis" DisplayName="Placerat sit" EntityState="Unchanged" Error="Adipiscing vel" Key="Parturient nam" OpenClose="False" ReferenceNumber="Sapien imperdiet" SearchCriteria="Pulvinar sed" StationId="41" StoreCode="Est sagittis senectus malesuada" Status="Dis commodo conubia vestibulum cubilia" Time="12/16/2012 14:38:31" TransactionId="25" TransactionNumber="Penatibus vestibulum" ValidationErrorMsg="Nunc porttitor dapibus adipiscing"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="71" CashierId="63" Comment="Tincidunt egestas massa metus" DisplayName="Amet sociosqu tristique semper ultricies" EntityState="Deleted" Error="Euismod suscipit morbi venenatis" Key="Ante arcu sociis neque vulputate" OpenClose="True" ReferenceNumber="Taciti curabitur tellus tempor feugiat" SearchCriteria="Tempus tortor hac" StationId="12" StoreCode="Gravida nulla porta" Status="Leo parturient phasellus netus" Time="12/16/2012 14:38:31" TransactionId="82" TransactionNumber="Diam eget turpis mus varius" ValidationErrorMsg="Iaculis aenean elit enim torquent"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="57" CashierId="69" Comment="Purus vestibulum consequat" DisplayName="Convallis mauris" EntityState="Detached" Error="Ultrices nullam lacinia" Key="Aptent risus dignissim" OpenClose="False" ReferenceNumber="Auctor velit nec vestibulum adipiscing" SearchCriteria="Erat laoreet elementum natoque posuere" StationId="91" StoreCode="Parturient potenti per" Status="Non congue" Time="12/16/2012 14:38:31" TransactionId="97" TransactionNumber="Vehicula vitae vestibulum eros sed" ValidationErrorMsg="Pretium class facilisis curae rhoncus"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="87" CashierId="82" Comment="Sodales nibh volutpat donec" DisplayName="Cursus maecenas" EntityState="Added" Error="Nisi vestibulum" Key="Viverra fermentum adipiscing" OpenClose="True" ReferenceNumber="Dictum nisl" SearchCriteria="Lectus etiam fringilla" StationId="25" StoreCode="Sem fusce ligula habitasse lorem" Status="Libero praesent" Time="12/16/2012 14:38:31" TransactionId="56" TransactionNumber="Litora sit vel" ValidationErrorMsg="Accumsan nunc morbi nulla"/>
+					</RMSDataAccessLayer:Cashier.TransactionBase>
+					<RMSDataAccessLayer:Cashier.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="40" CashierId="41" Comment="Dolor sem parturient fames" DisplayName="Quisque sit vestibulum cursus vivamus" EntityState="Deleted" Error="Vel eget dictum imperdiet lectus" Key="Elit aliquam" OpenClose="False" ReferenceNumber="Aliquet libero" SearchCriteria="Enim felis erat praesent" StationId="55" StoreCode="Malesuada blandit" Status="Eros ipsum justo" Time="12/16/2012 14:38:31" TransactionId="93" TransactionNumber="Commodo nibh ligula nam" ValidationErrorMsg="Accumsan conubia sed cubilia lacus"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="78" CashierId="78" Comment="Lorem magna nisi dapibus nisl" DisplayName="Egestas vestibulum nunc adipiscing massa" EntityState="Modified" Error="Metus morbi" Key="Parturient euismod bibendum feugiat" OpenClose="True" ReferenceNumber="Dis est litora gravida" SearchCriteria="Penatibus iaculis hac" StationId="99" StoreCode="Leo laoreet vestibulum" Status="Dictumst lacinia luctus odio orci" Time="12/16/2012 14:38:31" TransactionId="16" TransactionNumber="Eleifend vestibulum porttitor" ValidationErrorMsg="Neque netus pede natoque"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="43" CashierId="18" Comment="Quam facilisi tincidunt mus magnis" DisplayName="Adipiscing posuere" EntityState="Unchanged" Error="Nulla potenti faucibus habitant mattis" Key="Pretium rhoncus inceptos parturient mauris" OpenClose="False" ReferenceNumber="Tristique porta" SearchCriteria="Mollis nec ultricies montes venenatis" StationId="34" StoreCode="Per risus velit vitae viverra" Status="Non purus nostra sodales ornare" Time="12/16/2012 14:38:31" TransactionId="76" TransactionNumber="Vulputate interdum curabitur phasellus" ValidationErrorMsg="Sed sem quis urna"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="64" CashierId="80" Comment="Consequat platea primis" DisplayName="Lobortis vestibulum class sit" EntityState="Deleted" Error="Vestibulum curae rutrum vel" Key="Convallis sapien semper" OpenClose="True" ReferenceNumber="Cras nam adipiscing sed" SearchCriteria="Sociis dis dignissim aliquam donec" StationId="47" StoreCode="Nascetur parturient duis" Status="Taciti est hac" Time="12/16/2012 14:38:31" TransactionId="38" TransactionNumber="Pharetra placerat" ValidationErrorMsg="Nunc amet vestibulum vestibulum adipiscing"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="72" CashierId="87" Comment="Etiam tellus" DisplayName="Fusce ante tempor" EntityState="Modified" Error="Tempus pulvinar" Key="Elementum arcu tortor leo" OpenClose="False" ReferenceNumber="Turpis integer" SearchCriteria="Facilisis fermentum mus sagittis" StationId="65" StoreCode="Eget elit" Status="Diam lorem" Time="12/16/2012 14:38:31" TransactionId="68" TransactionNumber="Parturient quisque vestibulum" ValidationErrorMsg="Senectus enim"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="63" CashierId="56" Comment="Fringilla sociosqu habitasse vestibulum" DisplayName="Vivamus aliquam" EntityState="Unchanged" Error="Varius morbi" Key="Suscipit aenean torquent nulla aliquet" OpenClose="True" ReferenceNumber="Mauris adipiscing nullam" SearchCriteria="Proin blandit parturient erat" StationId="96" StoreCode="Vestibulum ultrices" Status="Aptent auctor" Time="12/16/2012 14:38:31" TransactionId="41" TransactionNumber="Congue nec" ValidationErrorMsg="Commodo hendrerit"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="96" CashierId="38" Comment="Himenaeos cursus imperdiet dictum lectus" DisplayName="Augue vehicula non per" EntityState="Detached" Error="Eros vestibulum libero" Key="Sed nibh sem dolor fames" OpenClose="False" ReferenceNumber="Felis volutpat adipiscing" SearchCriteria="Ipsum maecenas" StationId="37" StoreCode="Parturient ligula malesuada justo" Status="Conubia sit" Time="12/16/2012 14:38:31" TransactionId="35" TransactionNumber="Praesent nisi" ValidationErrorMsg="Litora cubilia vel dapibus luctus"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="33" CashierId="56" Comment="Nisl accumsan lacus penatibus nunc" DisplayName="Bibendum porttitor magnis" EntityState="Modified" Error="Nam dictumst" Key="Egestas odio orci lorem" OpenClose="True" ReferenceNumber="Euismod magna sed" SearchCriteria="Mattis feugiat mauris pede" StationId="40" StoreCode="Massa metus" Status="Tincidunt tristique gravida dis iaculis" Time="12/16/2012 14:38:31" TransactionId="76" TransactionNumber="Ultricies venenatis morbi mollis montes" ValidationErrorMsg="Eleifend vestibulum facilisi"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="96" CashierId="69" Comment="Est lacinia nostra neque ornare" DisplayName="Quam laoreet netus platea" EntityState="Detached" Error="Nulla faucibus hac" Key="Quis vestibulum porta" OpenClose="False" ReferenceNumber="Urna natoque cras purus primis" SearchCriteria="Vulputate habitant inceptos" StationId="67" StoreCode="Velit rutrum leo lobortis sapien" Status="Interdum risus posuere potenti" Time="12/16/2012 14:38:31" TransactionId="92" TransactionNumber="Semper curabitur" ValidationErrorMsg="Duis pretium"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="62" CashierId="13" Comment="Adipiscing nunc parturient vestibulum" DisplayName="Vitae rhoncus mus" EntityState="Unchanged" Error="Phasellus consequat class" Key="Nec vestibulum sociis amet adipiscing" OpenClose="True" ReferenceNumber="Curae taciti" SearchCriteria="Sodales parturient donec convallis" StationId="87" StoreCode="Vestibulum viverra" Status="Nascetur vestibulum" Time="12/16/2012 14:38:31" TransactionId="48" TransactionNumber="Ante adipiscing etiam" ValidationErrorMsg="Aliquam fusce pharetra tellus placerat"/>
+					</RMSDataAccessLayer:Cashier.Transaction>
+				</RMSDataAccessLayer:Cashier>
+			</RMSDataAccessLayer:TransactionBase.Cashier>
+			<RMSDataAccessLayer:TransactionBase.EntityKey>
+				<Data:EntityKey EntitySetName="Bibendum adipiscing" EntityContainerName="Morbi nibh ultrices" IsTemporary="False">
+					<Data:EntityKey.EntityKeyValues>
+						<Data:EntityKeyMember Key="Aptent auctor vestibulum"/>
+						<Data:EntityKeyMember Key="Natoque congue"/>
+						<Data:EntityKeyMember Key="Cursus dictum vehicula nulla"/>
+						<Data:EntityKeyMember Key="Lectus libero adipiscing volutpat nisi"/>
+						<Data:EntityKeyMember Key="Ligula proin litora parturient"/>
+						<Data:EntityKeyMember Key="Posuere nisl luctus magnis"/>
+						<Data:EntityKeyMember Key="Vestibulum maecenas"/>
+						<Data:EntityKeyMember Key="Augue praesent"/>
+						<Data:EntityKeyMember Key="Vestibulum potenti pretium"/>
+						<Data:EntityKeyMember Key="Accumsan dolor"/>
+					</Data:EntityKey.EntityKeyValues>
+				</Data:EntityKey>
+			</RMSDataAccessLayer:TransactionBase.EntityKey>
+			<RMSDataAccessLayer:TransactionBase.Station>
+				<RMSDataAccessLayer:Station EntityState="Deleted" MachineName="Platea imperdiet sociosqu parturient" ReceiptPrinterName="Malesuada sed elit sem" StationCode="Purus enim risus" StoreId="42" StationId="84">
+					<RMSDataAccessLayer:Station.Batch>
+						<RMSDataAccessLayer:Batch BatchId="55" CloseTransactions="83" CloseTransactionsEx="45" EndingCashEx="858.99" EntityState="Modified" OpenTransactionsEx="49" OpeningCashier="89" OpenTransactions="16" OpeningCash="614.44" OpeningTime="12/16/2012 14:38:31" StationId="79" Sales="255.82" SalesEx="359.55" Status="Arcu elementum" TotalChangeEx="868.58" TotalTenderEx="549.21"/>
+						<RMSDataAccessLayer:Batch BatchId="96" CloseTransactions="66" CloseTransactionsEx="88" EndingCashEx="254.9" EntityState="Added" OpenTransactionsEx="10" OpeningCashier="62" OpenTransactions="85" OpeningCash="516.54" OpeningTime="12/16/2012 14:38:31" StationId="73" Sales="245.63" SalesEx="291.91" Status="Pulvinar morbi vestibulum" TotalChangeEx="751.23" TotalTenderEx="128.35"/>
+						<RMSDataAccessLayer:Batch BatchId="85" CloseTransactions="32" CloseTransactionsEx="24" EndingCashEx="213.61" EntityState="Modified" OpenTransactionsEx="41" OpeningCashier="98" OpenTransactions="39" OpeningCash="487.27" OpeningTime="12/16/2012 14:38:31" StationId="21" Sales="608.74" SalesEx="621.99" Status="Vestibulum facilisis neque nec commodo" TotalChangeEx="122.26" TotalTenderEx="594.78"/>
+						<RMSDataAccessLayer:Batch BatchId="42" CloseTransactions="54" CloseTransactionsEx="44" EndingCashEx="118.85" EntityState="Modified" OpenTransactionsEx="55" OpeningCashier="40" OpenTransactions="23" OpeningCash="103.6" OpeningTime="12/16/2012 14:38:31" StationId="15" Sales="446.51" SalesEx="842.54" Status="Diam fermentum" TotalChangeEx="251.52" TotalTenderEx="884.38"/>
+						<RMSDataAccessLayer:Batch BatchId="33" CloseTransactions="39" CloseTransactionsEx="86" EndingCashEx="917.66" EntityState="Added" OpenTransactionsEx="68" OpeningCashier="94" OpenTransactions="72" OpeningCash="958.74" OpeningTime="12/16/2012 14:38:31" StationId="38" Sales="906.53" SalesEx="647.87" Status="Non adipiscing parturient fringilla habitasse" TotalChangeEx="920.88" TotalTenderEx="806.98"/>
+						<RMSDataAccessLayer:Batch BatchId="45" CloseTransactions="47" CloseTransactionsEx="41" EndingCashEx="620.92" EntityState="Detached" OpenTransactionsEx="61" OpeningCashier="88" OpenTransactions="62" OpeningCash="579.26" OpeningTime="12/16/2012 14:38:31" StationId="79" Sales="618.42" SalesEx="532.42" Status="Vestibulum netus eget" TotalChangeEx="971.84" TotalTenderEx="357.64"/>
+						<RMSDataAccessLayer:Batch BatchId="33" CloseTransactions="27" CloseTransactionsEx="80" EndingCashEx="923.49" EntityState="Unchanged" OpenTransactionsEx="51" OpeningCashier="46" OpenTransactions="42" OpeningCash="549.86" OpeningTime="12/16/2012 14:38:31" StationId="22" Sales="750.94" SalesEx="664.49" Status="Hendrerit himenaeos sagittis nulla" TotalChangeEx="759.46" TotalTenderEx="712.43"/>
+						<RMSDataAccessLayer:Batch BatchId="74" CloseTransactions="16" CloseTransactionsEx="41" EndingCashEx="171.26" EntityState="Modified" OpenTransactionsEx="87" OpeningCashier="66" OpenTransactions="16" OpeningCash="964.25" OpeningTime="12/16/2012 14:38:31" StationId="22" Sales="518.25" SalesEx="699.22" Status="Porta vestibulum" TotalChangeEx="829.38" TotalTenderEx="234.94"/>
+						<RMSDataAccessLayer:Batch BatchId="39" CloseTransactions="10" CloseTransactionsEx="93" EndingCashEx="956.64" EntityState="Unchanged" OpenTransactionsEx="58" OpeningCashier="73" OpenTransactions="93" OpeningCash="363.75" OpeningTime="12/16/2012 14:38:31" StationId="73" Sales="152.35" SalesEx="572.3" Status="Senectus ornare" TotalChangeEx="159.23" TotalTenderEx="663.33"/>
+						<RMSDataAccessLayer:Batch BatchId="36" CloseTransactions="11" CloseTransactionsEx="22" EndingCashEx="792.03" EntityState="Added" OpenTransactionsEx="68" OpeningCashier="45" OpenTransactions="41" OpeningCash="116.45" OpeningTime="12/16/2012 14:38:31" StationId="50" Sales="462.91" SalesEx="371.44" Status="Per adipiscing" TotalChangeEx="441.89" TotalTenderEx="909.84"/>
+					</RMSDataAccessLayer:Station.Batch>
+					<RMSDataAccessLayer:Station.EntityKey>
+						<Data:EntityKey EntitySetName="Lacus sagittis vestibulum" EntityContainerName="Elit aliquam pulvinar hendrerit hac" IsTemporary="True"/>
+					</RMSDataAccessLayer:Station.EntityKey>
+					<RMSDataAccessLayer:Station.Store>
+						<RMSDataAccessLayer:Store CompanyId="83" EntityState="Deleted" StoreId="79" SeedTransaction="77" StoreAddress="Primis vestibulum suscipit torquent" StoreCode="Penatibus vestibulum" TransactionSeed="19"/>
+					</RMSDataAccessLayer:Station.Store>
+					<RMSDataAccessLayer:Station.TransactionBase>
+						<RMSDataAccessLayer:TransactionBase BatchId="19" CashierId="36" Comment="Porttitor adipiscing ultrices erat conubia" DisplayName="Sit cubilia vel rutrum" EntityState="Modified" Error="Eros sapien nam" Key="Parturient nibh" OpenClose="True" ReferenceNumber="Semper nisi nisl sed sociis" SearchCriteria="Nunc odio dis vestibulum" StationId="63" StoreCode="Velit vestibulum" Status="Vehicula volutpat maecenas est tincidunt" Time="12/16/2012 14:38:31" TransactionId="80" TransactionNumber="Hac dapibus taciti leo tristique" ValidationErrorMsg="Tellus tempor praesent adipiscing accumsan"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="14" CashierId="94" Comment="Mus ultricies tempus" DisplayName="Venenatis bibendum" EntityState="Deleted" Error="Nec vitae parturient vestibulum" Key="Class dictumst" OpenClose="False" ReferenceNumber="Eleifend curae egestas" SearchCriteria="Vulputate curabitur" StationId="93" StoreCode="Facilisi phasellus tortor" Status="Non per euismod vestibulum sed" Time="12/16/2012 14:38:31" TransactionId="59" TransactionNumber="Orci consequat" ValidationErrorMsg="Feugiat adipiscing turpis sem"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="33" CashierId="55" Comment="Convallis varius pede faucibus sit" DisplayName="Donec gravida vel" EntityState="Added" Error="Parturient iaculis etiam nam" Key="Vestibulum sed quam fusce" OpenClose="True" ReferenceNumber="Lorem dignissim quis dis morbi" SearchCriteria="Nulla urna vestibulum habitant" StationId="66" StoreCode="Inceptos parturient mauris" Status="Aenean est adipiscing" Time="12/16/2012 14:38:31" TransactionId="80" TransactionNumber="Proin lacinia elementum nullam" ValidationErrorMsg="Augue aptent laoreet natoque"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="37" CashierId="26" Comment="Auctor cras vestibulum duis vestibulum" DisplayName="Posuere adipiscing interdum lobortis dolor" EntityState="Deleted" Error="Facilisis potenti fermentum nascetur congue" Key="Pharetra pretium nunc amet hac" OpenClose="False" ReferenceNumber="Placerat ante pulvinar cursus parturient" SearchCriteria="Arcu vestibulum rhoncus leo" StationId="16" StoreCode="Sociosqu hendrerit" Status="Sagittis fringilla habitasse senectus fames" Time="12/16/2012 14:38:31" TransactionId="47" TransactionNumber="Felis diam ipsum dictum" ValidationErrorMsg="Suscipit torquent"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="47" CashierId="68" Comment="Lectus ultrices" DisplayName="Vestibulum libero" EntityState="Unchanged" Error="Vehicula volutpat" Key="Mus nec adipiscing" OpenClose="True" ReferenceNumber="Eget justo sodales" SearchCriteria="Himenaeos elit viverra" StationId="13" StoreCode="Maecenas integer" Status="Aliquam enim" Time="12/16/2012 14:38:31" TransactionId="24" TransactionNumber="Lacus praesent non ligula parturient" ValidationErrorMsg="Imperdiet litora vestibulum quisque lorem"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="16" CashierId="97" Comment="Luctus malesuada penatibus magna" DisplayName="Per porttitor" EntityState="Detached" Error="Vestibulum vivamus" Key="Aliquam magnis massa mattis sed" OpenClose="False" ReferenceNumber="Tincidunt accumsan" SearchCriteria="Aliquet erat mauris" StationId="26" StoreCode="Tristique adipiscing commodo ultricies" Status="Blandit metus" Time="12/16/2012 14:38:31" TransactionId="67" TransactionNumber="Morbi sem mollis" ValidationErrorMsg="Eros parturient conubia"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="10" CashierId="82" Comment="Nibh bibendum cubilia" DisplayName="Dictumst dapibus neque montes" EntityState="Added" Error="Nisi venenatis nostra egestas" Key="Sit euismod netus" OpenClose="True" ReferenceNumber="Nulla vestibulum" SearchCriteria="Feugiat porta vulputate purus" StationId="11" StoreCode="Nisl iaculis platea risus" Status="Gravida vel ornare" Time="12/16/2012 14:38:31" TransactionId="71" TransactionNumber="Nam vestibulum sed" ValidationErrorMsg="Primis curabitur lacinia adipiscing"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="90" CashierId="32" Comment="Nunc eleifend" DisplayName="Parturient velit vitae rutrum dis" EntityState="Modified" Error="Vestibulum facilisi est phasellus consequat" Key="Sapien class" OpenClose="False" ReferenceNumber="Laoreet semper sociis" SearchCriteria="Hac taciti natoque vestibulum" StationId="63" StoreCode="Pede leo mus" Status="Odio orci curae" Time="12/16/2012 14:38:31" TransactionId="36" TransactionNumber="Tellus donec convallis" ValidationErrorMsg="Adipiscing faucibus tempor posuere"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="77" CashierId="34" Comment="Nec potenti parturient" DisplayName="Etiam vestibulum tempus" EntityState="Added" Error="Quam habitant fusce" Key="Lorem tortor dignissim vestibulum" OpenClose="True" ReferenceNumber="Adipiscing turpis varius inceptos morbi" SearchCriteria="Aenean non per sed" StationId="13" StoreCode="Nullam interdum lobortis elementum cras" Status="Mauris pretium quis urna" Time="12/16/2012 14:38:31" TransactionId="12" TransactionNumber="Sem nulla facilisis proin" ValidationErrorMsg="Parturient rhoncus sit"/>
+						<RMSDataAccessLayer:TransactionBase BatchId="46" CashierId="22" Comment="Duis vestibulum augue dolor" DisplayName="Fermentum vestibulum adipiscing" EntityState="Detached" Error="Fames vel nam sed" Key="Fringilla nunc sodales" OpenClose="False" ReferenceNumber="Felis aptent viverra dis amet" SearchCriteria="Ipsum ante habitasse est" StationId="89" StoreCode="Justo auctor diam nascetur" Status="Aliquam parturient integer arcu" Time="12/16/2012 14:38:31" TransactionId="63" TransactionNumber="Quisque vestibulum" ValidationErrorMsg="Vivamus eget congue pharetra placerat"/>
+					</RMSDataAccessLayer:Station.TransactionBase>
+				</RMSDataAccessLayer:Station>
+			</RMSDataAccessLayer:TransactionBase.Station>
+			<RMSDataAccessLayer:TransactionBase.TotalTender>
+				<System:Decimal/>
+			</RMSDataAccessLayer:TransactionBase.TotalTender>
+			<RMSDataAccessLayer:TransactionBase.TotalChange>
+				<System:Decimal/>
+			</RMSDataAccessLayer:TransactionBase.TotalChange>
+			<RMSDataAccessLayer:TransactionBase.TotalSales>
+				<System:Decimal/>
+			</RMSDataAccessLayer:TransactionBase.TotalSales>
+			<RMSDataAccessLayer:TransactionBase.TenderEntryEx>
+				<RMSDataAccessLayer:TenderEntryEx CheckNumber="Sociosqu erat parturient magna vestibulum" CreditCardNumber="Imperdiet cursus massa suscipit torquent" EntityState="Detached" TransactionId="40" TenderEntryId="24">
+					<RMSDataAccessLayer:TenderEntryEx.EntityKey>
+						<Data:EntityKey EntitySetName="Nec neque luctus non magnis" EntityContainerName="Nisl phasellus" IsTemporary="True"/>
+					</RMSDataAccessLayer:TenderEntryEx.EntityKey>
+					<RMSDataAccessLayer:TenderEntryEx.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="12" CashierId="56" Comment="Malesuada vestibulum metus" DisplayName="Dictum penatibus blandit lectus adipiscing" EntityState="Added" Error="Porttitor parturient vestibulum" Key="Ultrices vehicula libero tincidunt" OpenClose="False" ReferenceNumber="Volutpat vestibulum" SearchCriteria="Adipiscing tristique maecenas commodo conubia" StationId="56" StoreCode="Venenatis praesent vestibulum litora vestibulum" Status="Parturient ligula ultricies" Time="12/16/2012 14:38:31" TransactionId="60" TransactionNumber="Morbi vulputate curabitur adipiscing parturient" ValidationErrorMsg="Leo mus eros nibh nisi"/>
+					</RMSDataAccessLayer:TenderEntryEx.Transaction>
+				</RMSDataAccessLayer:TenderEntryEx>
+				<RMSDataAccessLayer:TenderEntryEx CheckNumber="Mattis mauris netus consequat" CreditCardNumber="Mollis cubilia per nunc" EntityState="Modified" TransactionId="76" TenderEntryId="28">
+					<RMSDataAccessLayer:TenderEntryEx.EntityKey>
+						<Data:EntityKey EntitySetName="Euismod urna cras interdum" EntityContainerName="Hendrerit himenaeos inceptos quam quis" IsTemporary="True"/>
+					</RMSDataAccessLayer:TenderEntryEx.EntityKey>
+					<RMSDataAccessLayer:TenderEntryEx.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="43" CashierId="47" Comment="Nulla vestibulum convallis accumsan vestibulum" DisplayName="Adipiscing montes nostra" EntityState="Added" Error="Dignissim bibendum" Key="Sed elementum" OpenClose="False" ReferenceNumber="Dictumst ornare" SearchCriteria="Eleifend dapibus facilisis fermentum facilisi" StationId="45" StoreCode="Platea habitant sem fringilla" Status="Egestas faucibus" Time="12/16/2012 14:38:31" TransactionId="19" TransactionNumber="Porta odio" ValidationErrorMsg="Primis orci sit habitasse pede"/>
+					</RMSDataAccessLayer:TenderEntryEx.Transaction>
+				</RMSDataAccessLayer:TenderEntryEx>
+				<RMSDataAccessLayer:TenderEntryEx CheckNumber="Rutrum purus" CreditCardNumber="Feugiat risus duis lobortis" EntityState="Detached" TransactionId="79" TenderEntryId="94">
+					<RMSDataAccessLayer:TenderEntryEx.EntityKey>
+						<Data:EntityKey EntitySetName="Dis elit velit vitae" EntityContainerName="Sagittis laoreet" IsTemporary="True"/>
+					</RMSDataAccessLayer:TenderEntryEx.EntityKey>
+					<RMSDataAccessLayer:TenderEntryEx.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="36" CashierId="22" Comment="Parturient imperdiet nascetur vel" DisplayName="Gravida vestibulum" EntityState="Unchanged" Error="Sapien semper malesuada nunc penatibus" Key="Porttitor iaculis" OpenClose="False" ReferenceNumber="Tincidunt nam amet pharetra tristique" SearchCriteria="Vestibulum adipiscing" StationId="20" StoreCode="Taciti ante placerat tellus" Status="Parturient ultricies sociis" Time="12/16/2012 14:38:31" TransactionId="96" TransactionNumber="Venenatis arcu diam" ValidationErrorMsg="Sed vulputate lacinia pulvinar eget"/>
+					</RMSDataAccessLayer:TenderEntryEx.Transaction>
+				</RMSDataAccessLayer:TenderEntryEx>
+				<RMSDataAccessLayer:TenderEntryEx CheckNumber="Tempor vestibulum" CreditCardNumber="Vestibulum class senectus natoque tempus" EntityState="Unchanged" TransactionId="91" TenderEntryId="31">
+					<RMSDataAccessLayer:TenderEntryEx.EntityKey>
+						<Data:EntityKey EntitySetName="Vestibulum vehicula lorem varius morbi" EntityContainerName="Mus fusce" IsTemporary="True"/>
+					</RMSDataAccessLayer:TenderEntryEx.EntityKey>
+					<RMSDataAccessLayer:TenderEntryEx.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="93" CashierId="31" Comment="Posuere enim potenti" DisplayName="Curabitur curae" EntityState="Detached" Error="Erat phasellus eros" Key="Donec etiam consequat adipiscing tortor" OpenClose="False" ReferenceNumber="Pretium nibh" SearchCriteria="Rhoncus nisi est nisl" StationId="69" StoreCode="Torquent viverra ultrices aliquam" Status="Parturient sodales turpis sociosqu suscipit" Time="12/16/2012 14:38:31" TransactionId="11" TransactionNumber="Vestibulum integer" ValidationErrorMsg="Hac quisque leo"/>
+					</RMSDataAccessLayer:TenderEntryEx.Transaction>
+				</RMSDataAccessLayer:TenderEntryEx>
+				<RMSDataAccessLayer:TenderEntryEx CheckNumber="Adipiscing nec nulla proin" CreditCardNumber="Nunc augue convallis volutpat" EntityState="Deleted" TransactionId="10" TenderEntryId="39">
+					<RMSDataAccessLayer:TenderEntryEx.EntityKey>
+						<Data:EntityKey EntitySetName="Accumsan penatibus blandit" EntityContainerName="Cras sem cursus malesuada duis" IsTemporary="True"/>
+					</RMSDataAccessLayer:TenderEntryEx.EntityKey>
+					<RMSDataAccessLayer:TenderEntryEx.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="13" CashierId="13" Comment="Odio dolor dignissim fames aenean" DisplayName="Vivamus parturient orci aliquam" EntityState="Detached" Error="Elementum pede facilisis aliquet" Key="Felis quam fermentum quis" OpenClose="False" ReferenceNumber="Ipsum fringilla mauris justo" SearchCriteria="Urna vestibulum habitasse maecenas" StationId="23" StoreCode="Per aptent auctor lacus hendrerit" Status="Vestibulum non nullam" Time="12/16/2012 14:38:31" TransactionId="13" TransactionNumber="Adipiscing lorem" ValidationErrorMsg="Praesent himenaeos imperdiet sed congue"/>
+					</RMSDataAccessLayer:TenderEntryEx.Transaction>
+				</RMSDataAccessLayer:TenderEntryEx>
+				<RMSDataAccessLayer:TenderEntryEx CheckNumber="Parturient commodo sit" CreditCardNumber="Vestibulum dictum" EntityState="Deleted" TransactionId="94" TenderEntryId="35">
+					<RMSDataAccessLayer:TenderEntryEx.EntityKey>
+						<Data:EntityKey EntitySetName="Feugiat netus gravida adipiscing" EntityContainerName="Amet magnis euismod" IsTemporary="True"/>
+					</RMSDataAccessLayer:TenderEntryEx.EntityKey>
+					<RMSDataAccessLayer:TenderEntryEx.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="78" CashierId="49" Comment="Lectus magna" DisplayName="Vestibulum libero" EntityState="Detached" Error="Adipiscing conubia" Key="Cubilia dapibus ligula" OpenClose="False" ReferenceNumber="Vel nunc litora porttitor parturient" SearchCriteria="Bibendum vestibulum egestas" StationId="44" StoreCode="Massa metus" Status="Vestibulum luctus" Time="12/16/2012 14:38:31" TransactionId="92" TransactionNumber="Morbi neque tincidunt nam" ValidationErrorMsg="Dictumst sed"/>
+					</RMSDataAccessLayer:TenderEntryEx.Transaction>
+				</RMSDataAccessLayer:TenderEntryEx>
+				<RMSDataAccessLayer:TenderEntryEx CheckNumber="Nulla iaculis mattis ante" CreditCardNumber="Tristique arcu mauris parturient ultricies" EntityState="Modified" TransactionId="38" TenderEntryId="70">
+					<RMSDataAccessLayer:TenderEntryEx.EntityKey>
+						<Data:EntityKey EntitySetName="Eros donec leo" EntityContainerName="Sodales habitant" IsTemporary="True"/>
+					</RMSDataAccessLayer:TenderEntryEx.EntityKey>
+					<RMSDataAccessLayer:TenderEntryEx.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="20" CashierId="50" Comment="Vestibulum porta mollis montes eleifend" DisplayName="Dis facilisi purus" EntityState="Unchanged" Error="Lacinia laoreet" Key="Natoque diam" OpenClose="False" ReferenceNumber="Eget est elit risus" SearchCriteria="Velit posuere nostra hac" StationId="52" StoreCode="Faucibus enim pretium vitae erat" Status="Venenatis potenti vulputate curabitur phasellus" Time="12/16/2012 14:38:31" TransactionId="82" TransactionNumber="Class consequat" ValidationErrorMsg="Ornare rhoncus curae"/>
+					</RMSDataAccessLayer:TenderEntryEx.Transaction>
+				</RMSDataAccessLayer:TenderEntryEx>
+				<RMSDataAccessLayer:TenderEntryEx CheckNumber="Convallis etiam vestibulum inceptos" CreditCardNumber="Adipiscing dignissim nibh platea" EntityState="Added" TransactionId="97" TenderEntryId="52">
+					<RMSDataAccessLayer:TenderEntryEx.EntityKey>
+						<Data:EntityKey EntitySetName="Commodo habitasse sem" EntityContainerName="Fringilla blandit" IsTemporary="True"/>
+					</RMSDataAccessLayer:TenderEntryEx.EntityKey>
+					<RMSDataAccessLayer:TenderEntryEx.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="87" CashierId="54" Comment="Nisi parturient" DisplayName="Primis viverra vestibulum" EntityState="Unchanged" Error="Elementum vestibulum rutrum sapien aliquam" Key="Integer mus adipiscing nec non" OpenClose="False" ReferenceNumber="Semper fusce interdum" SearchCriteria="Lobortis nascetur facilisis quisque" StationId="60" StoreCode="Lorem aliquam aliquet per parturient" Status="Vivamus nisl nunc sociis" Time="12/16/2012 14:38:31" TransactionId="83" TransactionNumber="Sed taciti pharetra" ValidationErrorMsg="Morbi tellus placerat fermentum"/>
+					</RMSDataAccessLayer:TenderEntryEx.Transaction>
+				</RMSDataAccessLayer:TenderEntryEx>
+				<RMSDataAccessLayer:TenderEntryEx CheckNumber="Odio pulvinar nulla" CreditCardNumber="Orci hendrerit proin conubia tempor" EntityState="Deleted" TransactionId="70" TenderEntryId="90">
+					<RMSDataAccessLayer:TenderEntryEx.EntityKey>
+						<Data:EntityKey EntitySetName="Justo est hac vestibulum" EntityContainerName="Sed ultrices dis ipsum aenean" IsTemporary="True"/>
+					</RMSDataAccessLayer:TenderEntryEx.EntityKey>
+					<RMSDataAccessLayer:TenderEntryEx.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="92" CashierId="50" Comment="Pede sit" DisplayName="Cubilia dapibus sagittis augue" EntityState="Detached" Error="Dolor fames" Key="Egestas euismod" OpenClose="False" ReferenceNumber="Tempus vestibulum tortor feugiat turpis" SearchCriteria="Gravida quam himenaeos" StationId="43" StoreCode="Urna vel lacinia felis" Status="Senectus sociosqu iaculis imperdiet quis" Time="12/16/2012 14:38:31" TransactionId="68" TransactionNumber="Varius vestibulum cras laoreet duis" ValidationErrorMsg="Adipiscing suscipit torquent nam parturient"/>
+					</RMSDataAccessLayer:TenderEntryEx.Transaction>
+				</RMSDataAccessLayer:TenderEntryEx>
+				<RMSDataAccessLayer:TenderEntryEx CheckNumber="Natoque posuere nunc" CreditCardNumber="Vehicula vestibulum" EntityState="Deleted" TransactionId="57" TenderEntryId="58">
+					<RMSDataAccessLayer:TenderEntryEx.EntityKey>
+						<Data:EntityKey EntitySetName="Diam eget" EntityContainerName="Maecenas massa" IsTemporary="True"/>
+					</RMSDataAccessLayer:TenderEntryEx.EntityKey>
+					<RMSDataAccessLayer:TenderEntryEx.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="54" CashierId="11" Comment="Adipiscing potenti" DisplayName="Parturient malesuada lacus penatibus" EntityState="Unchanged" Error="Lorem pretium leo" Key="Mus porttitor mauris" OpenClose="False" ReferenceNumber="Nullam nec amet vestibulum" SearchCriteria="Tincidunt vestibulum aptent volutpat" StationId="64" StoreCode="Rhoncus magna" Status="Non per" Time="12/16/2012 14:38:31" TransactionId="26" TransactionNumber="Sed sodales" ValidationErrorMsg="Ante arcu sem adipiscing"/>
+					</RMSDataAccessLayer:TenderEntryEx.Transaction>
+				</RMSDataAccessLayer:TenderEntryEx>
+			</RMSDataAccessLayer:TransactionBase.TenderEntryEx>
+			<RMSDataAccessLayer:TransactionBase.TotalDiscount>
+				<System:Decimal/>
+			</RMSDataAccessLayer:TransactionBase.TotalDiscount>
+			<RMSDataAccessLayer:TransactionBase.TransactionEntries>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Viverra praesent sit" EntityState="Unchanged" Error="Tristique metus elit aliquam auctor" ItemId="15" StoreID="39" TransactionId="44" Taxable="False" TransactionEntryId="59" ValidationErrorMsg="Sem habitant sit">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Facilisis inceptos vel gravida fermentum" EntityContainerName="Porta feugiat litora" IsTemporary="False"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Accumsan vel integer nam parturient" DateCreated="12/16/2012 14:38:31" Description="Bibendum vulputate sed adipiscing parturient" Department="Vestibulum ultricies vestibulum venenatis" DisplayName="Dis dictumst" ExtendedDescription="Curabitur eleifend" EntityState="Modified" ItemLookupCode="Facilisi enim" ItemId="37" ItemNotDiscountable="True" Inactive="False" Key="Quisque est morbi vivamus neque" Quantity="642.68" SearchCriteria="Erat congue aliquam vestibulum"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="46" CashierId="20" Comment="Hac aliquet eros" DisplayName="Leo blandit cursus commodo phasellus" EntityState="Modified" Error="Mus faucibus nibh" Key="Netus nec" OpenClose="True" ReferenceNumber="Nisi non dictum per" SearchCriteria="Nulla conubia cubilia" StationId="40" StoreCode="Libero adipiscing" Status="Lectus vestibulum dapibus egestas" Time="12/16/2012 14:38:31" TransactionId="36" TransactionNumber="Euismod consequat parturient convallis dignissim" ValidationErrorMsg="Ligula nisl sed elementum"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Luctus vestibulum nunc nam odio" EntityState="Unchanged" Error="Fringilla vestibulum" ItemId="49" StoreID="85" TransactionId="23" Taxable="True" TransactionEntryId="26" ValidationErrorMsg="Quisque adipiscing suscipit">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Ornare aliquam parturient platea" EntityContainerName="Vivamus curae nostra" IsTemporary="True"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Sed magnis dis est" DateCreated="12/16/2012 14:38:31" Description="Hendrerit himenaeos purus adipiscing lobortis" Department="Iaculis interdum lacinia habitasse" DisplayName="Orci hac risus parturient" ExtendedDescription="Imperdiet vestibulum leo mus nec" EntityState="Deleted" ItemLookupCode="Laoreet velit natoque non" ItemId="27" ItemNotDiscountable="False" Inactive="True" Key="Posuere potenti pretium rhoncus" Quantity="607.03" SearchCriteria="Malesuada sodales"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="39" CashierId="79" Comment="Vestibulum viverra pede aliquam penatibus" DisplayName="Per sed mattis nascetur pharetra" EntityState="Modified" Error="Placerat adipiscing" Key="Vitae sem porttitor pulvinar mauris" OpenClose="False" ReferenceNumber="Sagittis quam" SearchCriteria="Class quis senectus tincidunt parturient" StationId="21" StoreCode="Urna sit cras duis" Status="Vestibulum sociosqu mollis integer" Time="12/16/2012 14:38:31" TransactionId="93" TransactionNumber="Vel tristique vestibulum" ValidationErrorMsg="Nam sed montes"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Nunc ultricies" EntityState="Unchanged" Error="Amet vestibulum donec" ItemId="79" StoreID="30" TransactionId="20" Taxable="False" TransactionEntryId="91" ValidationErrorMsg="Habitant nec morbi neque inceptos">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Gravida convallis erat" EntityContainerName="Varius aenean interdum netus" IsTemporary="False"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Aliquet etiam fusce venenatis lorem" DateCreated="12/16/2012 14:38:31" Description="Vehicula primis rutrum vestibulum" Department="Torquent dis ultrices blandit morbi" DisplayName="Commodo ante volutpat maecenas adipiscing" ExtendedDescription="Est nulla conubia cubilia" EntityState="Modified" ItemLookupCode="Proin sapien semper" ItemId="47" ItemNotDiscountable="True" Inactive="False" Key="Augue praesent parturient dolor fames" Quantity="595.66" SearchCriteria="Vulputate felis"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="15" CashierId="32" Comment="Curabitur sociis taciti accumsan ipsum" DisplayName="Bibendum dictumst tellus justo arcu" EntityState="Deleted" Error="Lacus eleifend vestibulum vestibulum" Key="Dapibus tempor lorem" OpenClose="True" ReferenceNumber="Egestas hac diam phasellus" SearchCriteria="Leo mus facilisi" StationId="21" StoreCode="Tempus massa faucibus eget parturient" Status="Adipiscing magna consequat" Time="12/16/2012 14:38:31" TransactionId="60" TransactionNumber="Vestibulum elit euismod feugiat enim" ValidationErrorMsg="Tortor turpis vestibulum metus"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Iaculis mauris dignissim nullam" EntityState="Modified" Error="Lobortis nascetur adipiscing" ItemId="86" StoreID="47" TransactionId="76" Taxable="True" TransactionEntryId="24" ValidationErrorMsg="Parturient maecenas quis praesent">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Viverra aliquam" EntityContainerName="Leo mus accumsan" IsTemporary="True"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Parturient nulla non" DateCreated="12/16/2012 14:38:31" Description="Porta elementum" Department="Lacinia per" DisplayName="Facilisis aptent" ExtendedDescription="Sed eros vestibulum sem nibh" EntityState="Detached" ItemLookupCode="Vestibulum nisi sit pharetra auctor" ItemId="79" ItemNotDiscountable="False" Inactive="True" Key="Purus adipiscing risus" Quantity="438.64" SearchCriteria="Placerat parturient vel velit"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="92" CashierId="16" Comment="Pulvinar vitae sagittis fermentum" DisplayName="Nisl congue senectus cursus" EntityState="Detached" Error="Nam vestibulum" Key="Laoreet dictum nunc vestibulum adipiscing" OpenClose="False" ReferenceNumber="Natoque sed sociosqu odio suscipit" SearchCriteria="Torquent dis posuere" StationId="94" StoreCode="Lectus est" Status="Orci fringilla ultrices pede" Time="12/16/2012 14:38:31" TransactionId="92" TransactionNumber="Potenti vehicula quam pretium" ValidationErrorMsg="Volutpat rhoncus libero hac sodales"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Ligula class litora urna" EntityState="Detached" Error="Nec habitasse curae integer" ItemId="15" StoreID="77" TransactionId="52" Taxable="False" TransactionEntryId="73" ValidationErrorMsg="Sapien arcu">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Felis semper vestibulum vestibulum tristique" EntityContainerName="Nascetur vel pharetra nam egestas" IsTemporary="False"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Bibendum hendrerit" DateCreated="12/16/2012 14:38:31" Description="Luctus cras donec magnis mattis" Department="Quisque vestibulum" DisplayName="Etiam mauris himenaeos" ExtendedDescription="Mollis fusce vivamus montes" EntityState="Detached" ItemLookupCode="Nostra dictumst ornare aliquam" ItemId="98" ItemNotDiscountable="True" Inactive="False" Key="Non vestibulum aliquet blandit duis" Quantity="670.99" SearchCriteria="Nunc imperdiet per eleifend"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="23" CashierId="34" Comment="Lorem commodo" DisplayName="Morbi nulla sed" EntityState="Unchanged" Error="Adipiscing conubia cubilia" Key="Facilisi platea" OpenClose="True" ReferenceNumber="Primis malesuada proin faucibus habitant" SearchCriteria="Amet inceptos sem" StationId="33" StoreCode="Porttitor augue rutrum interdum dapibus" Status="Ante penatibus parturient" Time="12/16/2012 14:38:31" TransactionId="63" TransactionNumber="Lobortis dolor" ValidationErrorMsg="Sit tincidunt fames"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Diam adipiscing placerat pulvinar" EntityState="Added" Error="Eget ultricies ipsum" ItemId="13" StoreID="88" TransactionId="47" Taxable="True" TransactionEntryId="26" ValidationErrorMsg="Rhoncus pede metus sodales viverra">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Sed vehicula volutpat sem" EntityContainerName="Ultrices dignissim elementum aliquam per" IsTemporary="True"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Sociis elit euismod" DateCreated="12/16/2012 14:38:31" Description="Venenatis gravida" Department="Enim sagittis feugiat justo" DisplayName="Iaculis erat lacus" ExtendedDescription="Lacinia parturient" EntityState="Deleted" ItemLookupCode="Eros sed senectus laoreet" ItemId="64" ItemNotDiscountable="False" Inactive="True" Key="Natoque dis nibh nisi" Quantity="271.96" SearchCriteria="Sociosqu vulputate"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="58" CashierId="65" Comment="Vestibulum vestibulum adipiscing" DisplayName="Est posuere hac parturient taciti" EntityState="Added" Error="Tellus suscipit lorem nisl" Key="Vestibulum vestibulum" OpenClose="False" ReferenceNumber="Adipiscing potenti tempor nunc leo" SearchCriteria="Curabitur odio" StationId="38" StoreCode="Vestibulum nec non torquent phasellus" Status="Pretium tempus parturient mus" Time="12/16/2012 14:38:31" TransactionId="88" TransactionNumber="Orci magna" ValidationErrorMsg="Tortor consequat massa convallis"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Integer vestibulum sit" EntityState="Deleted" Error="Facilisis quisque" ItemId="31" StoreID="83" TransactionId="73" Taxable="False" TransactionEntryId="57" ValidationErrorMsg="Arcu sed">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Posuere potenti" EntityContainerName="Adipiscing natoque" IsTemporary="False"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Morbi vivamus vel nam aliquam" DateCreated="12/16/2012 14:38:31" Description="Aliquet parturient" Department="Adipiscing fermentum fringilla maecenas" DisplayName="Praesent sed" ExtendedDescription="Blandit quam vestibulum neque" EntityState="Modified" ItemLookupCode="Vestibulum commodo netus turpis accumsan" ItemId="37" ItemNotDiscountable="True" Inactive="False" Key="Conubia nulla dis habitasse porta" Quantity="509.93" SearchCriteria="Varius cubilia quis purus"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="28" CashierId="86" Comment="Risus bibendum urna adipiscing cras" DisplayName="Dapibus est hendrerit egestas" EntityState="Unchanged" Error="Dictumst parturient duis nunc eleifend" Key="Velit hac leo" OpenClose="True" ReferenceNumber="Aenean amet vitae mus euismod" SearchCriteria="Feugiat ante gravida" StationId="28" StoreCode="Himenaeos iaculis mauris class" Status="Nec facilisi non" Time="12/16/2012 14:38:31" TransactionId="30" TransactionNumber="Lacinia curae faucibus vestibulum vestibulum" ValidationErrorMsg="Laoreet per donec"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Etiam habitant" EntityState="Detached" Error="Inceptos imperdiet" ItemId="35" StoreID="43" TransactionId="20" Taxable="True" TransactionEntryId="94" ValidationErrorMsg="Justo ligula">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Adipiscing viverra mus parturient" EntityContainerName="Tincidunt torquent vestibulum sodales" IsTemporary="True"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Diam sem fusce" DateCreated="12/16/2012 14:38:31" Description="Nullam elit vestibulum sit" Department="Malesuada lorem interdum eget parturient" DisplayName="Vestibulum adipiscing morbi pretium" ExtendedDescription="Lobortis parturient" EntityState="Modified" ItemLookupCode="Vestibulum aptent vel" ItemId="96" ItemNotDiscountable="False" Inactive="True" Key="Auctor nulla vestibulum enim adipiscing" Quantity="681.18" SearchCriteria="Rhoncus parturient nascetur nam"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="91" CashierId="46" Comment="Pharetra sed congue dis proin" DisplayName="Cursus est placerat hac vestibulum" EntityState="Unchanged" Error="Pulvinar vestibulum erat" Key="Adipiscing dictum" OpenClose="False" ReferenceNumber="Eros nibh parturient augue" SearchCriteria="Vestibulum penatibus" StationId="64" StoreCode="Porttitor sociosqu" Status="Lectus sagittis dolor senectus" Time="12/16/2012 14:38:31" TransactionId="44" TransactionNumber="Libero suscipit fames" ValidationErrorMsg="Leo felis ipsum"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Vestibulum ultrices" EntityState="Unchanged" Error="Nisi lacus litora luctus" ItemId="34" StoreID="55" TransactionId="88" Taxable="False" TransactionEntryId="95" ValidationErrorMsg="Adipiscing sem sociis lobortis porta">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Urna vel nam vulputate" EntityContainerName="Sit taciti parturient ultricies venenatis" IsTemporary="False"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Vestibulum vehicula volutpat maecenas" DateCreated="12/16/2012 14:38:31" Description="Lorem nec magnis aliquam accumsan" Department="Praesent nisl nunc" DisplayName="Integer adipiscing" ExtendedDescription="Bibendum parturient" EntityState="Modified" ItemLookupCode="Mattis quisque vestibulum mauris" ItemId="46" ItemNotDiscountable="True" Inactive="False" Key="Vivamus aliquam odio" Quantity="515.42" SearchCriteria="Magna massa mollis"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="96" CashierId="52" Comment="Tristique aliquet dictumst eleifend montes" DisplayName="Nostra metus vestibulum facilisi" EntityState="Detached" Error="Blandit ornare commodo faucibus" Key="Non orci platea conubia primis" OpenClose="True" ReferenceNumber="Adipiscing pede" SearchCriteria="Parturient per morbi sed quam" StationId="59" StoreCode="Vestibulum rutrum cubilia netus nulla" Status="Habitant neque vestibulum" Time="12/16/2012 14:38:31" TransactionId="68" TransactionNumber="Quis sapien inceptos" ValidationErrorMsg="Interdum semper"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+				<RMSDataAccessLayer:TransactionEntryBase Comment="Purus cras dapibus" EntityState="Deleted" Error="Curabitur duis nascetur" ItemId="30" StoreID="31" TransactionId="93" Taxable="True" TransactionEntryId="65" ValidationErrorMsg="Vestibulum fusce elit enim">
+					<RMSDataAccessLayer:TransactionEntryBase.Amount>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Amount>
+					<RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+						<Data:EntityKey EntitySetName="Parturient eros lorem" EntityContainerName="Vestibulum erat adipiscing" IsTemporary="True"/>
+					</RMSDataAccessLayer:TransactionEntryBase.EntityKey>
+					<RMSDataAccessLayer:TransactionEntryBase.Item>
+						<RMSDataAccessLayer:Item Category="Tellus phasellus nunc tempor" DateCreated="12/16/2012 14:38:31" Description="Velit egestas pharetra" Department="Sed risus dis est" DisplayName="Tempus consequat" ExtendedDescription="Hac tortor convallis dignissim amet" EntityState="Modified" ItemLookupCode="Placerat ante euismod vitae elementum" ItemId="31" ItemNotDiscountable="False" Inactive="True" Key="Feugiat pulvinar" Quantity="351.09" SearchCriteria="Facilisis turpis sagittis vestibulum"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Item>
+					<RMSDataAccessLayer:TransactionEntryBase.Price>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Price>
+					<RMSDataAccessLayer:TransactionEntryBase.Quantity>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.Quantity>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTaxPercent>
+					<RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+						<System:Decimal/>
+					</RMSDataAccessLayer:TransactionEntryBase.SalesTax>
+					<RMSDataAccessLayer:TransactionEntryBase.Transaction>
+						<RMSDataAccessLayer:TransactionBase BatchId="18" CashierId="14" Comment="Leo senectus gravida varius" DisplayName="Vestibulum adipiscing" EntityState="Modified" Error="Arcu parturient mus" Key="Sociosqu vestibulum vestibulum aenean iaculis" OpenClose="False" ReferenceNumber="Class nec" SearchCriteria="Suscipit diam adipiscing" StationId="89" StoreCode="Nullam donec non parturient" Status="Curae mauris" Time="12/16/2012 14:38:31" TransactionId="56" TransactionNumber="Per eget" ValidationErrorMsg="Sed lacinia torquent etiam"/>
+					</RMSDataAccessLayer:TransactionEntryBase.Transaction>
+				</RMSDataAccessLayer:TransactionEntryBase>
+			</RMSDataAccessLayer:TransactionBase.TransactionEntries>
+			<RMSDataAccessLayer:TransactionBase.TotalTax>
+				<System:Decimal/>
+			</RMSDataAccessLayer:TransactionBase.TotalTax>
+		</RMSDataAccessLayer:TransactionBase>
+	</RMSDataAccessLayer:PrescriptionEntry.Transaction>
+</RMSDataAccessLayer:PrescriptionEntry>

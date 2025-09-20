@@ -1,0 +1,11 @@
+﻿<Window x:Class="QS2QBPost.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="QS 2 QB Post" Height="350" Width="525">
+    <Grid>
+        <Button Content="Post 2 QuickBooks" HorizontalAlignment="Left" Height="85" Margin="40,45,0,0" VerticalAlignment="Top" Width="175" Click="Button_Click"/>
+        <Button Content="Download Inventory Changes" HorizontalAlignment="Left" Height="38" Margin="305,45,0,0" VerticalAlignment="Top" Width="175" Click="DownloadQBItemsBtn"/>
+        <Button Content="Refresh Inventory" HorizontalAlignment="Left" Height="42" Margin="305,88,0,0" VerticalAlignment="Top" Width="175" Click="RefreshInventory"/>
+
+    </Grid>
+</Window>

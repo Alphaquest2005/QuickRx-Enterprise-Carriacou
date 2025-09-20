@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ce31aa4d1c794e86b41a9233ae3b5929" Name="Ticket" ZoomLevel="77" >
+        <EntityTypeShape EntityType="RMSEntities.Pass" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="RMSEntities.Ticket" Width="1.5" PointX="3" PointY="1.375" />
+        <AssociationConnector Association="RMSEntities.PassTicket" />
+        <EntityTypeShape EntityType="RMSEntities.TicketEntry" Width="2.125" PointX="14.625" PointY="2" />
+        <EntityTypeShape EntityType="RMSEntities.TransactionEntryBase" Width="1.75" PointX="10.625" PointY="2" />
+        <InheritanceConnector EntityType="RMSEntities.TicketEntry" />
+        <EntityTypeShape EntityType="RMSEntities.TransactionBase" Width="1.5" PointX="4" PointY="4" />
+        <InheritanceConnector EntityType="RMSEntities.Ticket" />
+        <AssociationConnector Association="RMSEntities.TransactionTransactionEntry" />
+        <EntityTypeShape EntityType="RMSEntities.Item" Width="2.125" PointX="13.75" PointY="4.5" />
+        <EntityTypeShape EntityType="RMSEntities.TicketSetup" Width="1.5" PointX="19.25" PointY="4.625" />
+        <EntityTypeShape EntityType="RMSEntities.Customers" Width="1.5" PointX="6.375" PointY="2.125" />
+        <EntityTypeShape EntityType="RMSEntities.TicketItem" PointX="17" PointY="4.5" Width="1.5" />
+        <InheritanceConnector EntityType="RMSEntities.TicketItem" />
+        <AssociationConnector Association="RMSEntities.TicketSetupTicketItem" />
+        <AssociationConnector Association="RMSEntities.ItemTransactionEntryBase" />
+      </Diagram>
+      <Diagram DiagramId="6bc5f6e8ca5245f993169dc5ecb38d84" Name="Prescription" ZoomLevel="58" >
+        <EntityTypeShape EntityType="RMSEntities.TransactionBase" Width="1.5" PointX="6.75" PointY="2" />
+        <EntityTypeShape EntityType="RMSEntities.Item" Width="1.5" PointX="13" PointY="3.75" />
+        <EntityTypeShape EntityType="RMSEntities.TransactionEntryBase" Width="2" PointX="9.375" PointY="1.5" />
+        <AssociationConnector Association="RMSEntities.TransactionTransactionEntry" />
+        <EntityTypeShape EntityType="RMSEntities.PrescriptionEntry" Width="2.5" PointX="13" PointY="0.75" />
+        <EntityTypeShape EntityType="RMSEntities.Prescription" Width="1.5" PointX="6.75" PointY="7.375" />
+        <InheritanceConnector EntityType="RMSEntities.Prescription" />
+        <InheritanceConnector EntityType="RMSEntities.PrescriptionEntry" />
+        <EntityTypeShape EntityType="RMSEntities.Medicine" Width="1.5" PointX="16.5" PointY="5.375" />
+        <InheritanceConnector EntityType="RMSEntities.Medicine" />
+        <EntityTypeShape EntityType="RMSEntities.Patient" Width="1.5" PointX="9.5" PointY="7.375" />
+        <EntityTypeShape EntityType="RMSEntities.Doctor" Width="1.5" PointX="3.875" PointY="6.125" />
+        <AssociationConnector Association="RMSEntities.DoctorPrescription" />
+        <AssociationConnector Association="RMSEntities.ItemTransactionEntryBase" />
+        <AssociationConnector Association="RMSEntities.PatientPrescription" />
+        <EntityTypeShape EntityType="RMSEntities.QuickPrescription" Width="1.5" PointX="4.5" PointY="3.5" />
+        <InheritanceConnector EntityType="RMSEntities.QuickPrescription" />
+      </Diagram>
+      <Diagram DiagramId="02da398aa3ed47549781f035000b0e26" Name="Base" ZoomLevel="82" >
+        <EntityTypeShape EntityType="RMSEntities.Item" Width="1.5" PointX="1.75" PointY="46.5" />
+        <EntityTypeShape EntityType="RMSEntities.TransactionBase" Width="1.5" PointX="7.875" PointY="25.625" />
+        <EntityTypeShape EntityType="RMSEntities.TransactionEntryBase" Width="2.625" PointX="4.875" PointY="51.375" />
+        <AssociationConnector Association="RMSEntities.TransactionTransactionEntry" />
+        <EntityTypeShape EntityType="RMSEntities.TransactionEntry" Width="1.5" PointX="4.875" PointY="55.625" />
+        <InheritanceConnector EntityType="RMSEntities.TransactionEntry" />
+        <EntityTypeShape EntityType="RMSEntities.Company" Width="1.5" PointX="0.5" PointY="1.875" />
+        <EntityTypeShape EntityType="RMSEntities.Person" Width="1.5" PointX="7.75" PointY="9.625" />
+        <AssociationConnector Association="RMSEntities.CustomerTransaction" />
+        <EntityTypeShape EntityType="RMSEntities.Transaction" Width="1.5" PointX="10.125" PointY="31" />
+        <InheritanceConnector EntityType="RMSEntities.Transaction" />
+        <EntityTypeShape EntityType="RMSEntities.Cashier" Width="1.5" PointX="3.375" PointY="29" />
+        <AssociationConnector Association="RMSEntities.CashierTransactionBase" />
+        <EntityTypeShape EntityType="RMSEntities.Batch" Width="1.5" PointX="3.375" PointY="31.625" />
+        <AssociationConnector Association="RMSEntities.BatchTransactionBase" />
+        <EntityTypeShape EntityType="RMSEntities.Station" Width="1.5" PointX="8" PointY="1.5" />
+        <AssociationConnector Association="RMSEntities.StationTransactionBase" />
+        <EntityTypeShape EntityType="RMSEntities.Store" Width="1.5" PointX="4" PointY="1.25" />
+        <AssociationConnector Association="RMSEntities.StoreStation" />
+        <EntityTypeShape EntityType="RMSEntities.TenderEntryEx" Width="1.5" PointX="7.875" PointY="31" />
+        <AssociationConnector Association="RMSEntities.TransactionBaseTenderEntryEx" />
+        <EntityTypeShape EntityType="RMSEntities.Pass" Width="1.5" PointX="7.875" PointY="13.375" />
+        <AssociationConnector Association="RMSEntities.CustomerPass" />
+        <EntityTypeShape EntityType="RMSEntities.Doctor" Width="1.5" PointX="13.125" PointY="13.375" />
+        <InheritanceConnector EntityType="RMSEntities.Doctor" />
+        <EntityTypeShape EntityType="RMSEntities.Patient" Width="1.5" PointX="5.625" PointY="13.375" />
+        <InheritanceConnector EntityType="RMSEntities.Patient" />
+        <EntityTypeShape EntityType="RMSEntities.Customers" Width="1.5" PointX="10.875" PointY="13.375" />
+        <InheritanceConnector EntityType="RMSEntities.Customers" />
+        <InheritanceConnector EntityType="RMSEntities.Cashier" />
+        <EntityTypeShape EntityType="RMSEntities.StockItem" Width="2.125" PointX="4.25" PointY="47.375" />
+        <InheritanceConnector EntityType="RMSEntities.StockItem" />
+        <AssociationConnector Association="RMSEntities.ItemTransactionEntryBase" />
+        <AssociationConnector Association="RMSEntities.CompanyStore" />
+        <AssociationConnector Association="RMSEntities.StationBatch" />
+        <EntityTypeShape EntityType="RMSEntities.CashierLog" Width="1.5" PointX="1.5" PointY="27.625" />
+        <AssociationConnector Association="RMSEntities.CashierCashierLog" />
+        <AssociationConnector Association="RMSEntities.BatchCashier" />
+        <AssociationConnector Association="RMSEntities.BatchCashier1" />
+        <AssociationConnector Association="RMSEntities.BatchTransactionBase1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

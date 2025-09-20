@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Modularity:ModuleCatalog xmlns:Modularity="clr-namespace:Microsoft.Practices.Prism.Modularity;assembly=Microsoft.Practices.Prism"
+                          xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <Modularity:ModuleInfo Ref="file://SalesRegion.dll"
+              ModuleName="SalesRegionModule"
+              ModuleType="SalesRegion.SalesRegionModule, SalesRegion, Version=1.0.0.0">    
+		<Modularity:ModuleInfo.DependsOn>
+		  <sys:String>MakeSalesServiceModule</sys:String>
+		</Modularity:ModuleInfo.DependsOn>  
+    </Modularity:ModuleInfo>
+
+  <Modularity:ModuleInfo Ref="file://Transaction.dll"
+                    ModuleName="TransactionRegionModule"
+                    ModuleType="Transaction.TransactionRegionModule, Transaction, Version=1.0.0.0">
+    <!--ToDo: Update with the service module that your region depends on (if you have one).-->
+  </Modularity:ModuleInfo>
+
+	<Modularity:ModuleInfo Ref="file://SalesService.dll"
+			  ModuleName="MakeSalesServiceModule"
+			  ModuleType="SalesService.MakeSalesServiceModule, SalesService, Version=1.0.0.0">
+	</Modularity:ModuleInfo>
+
+</Modularity:ModuleCatalog>

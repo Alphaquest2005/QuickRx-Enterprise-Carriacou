@@ -1,0 +1,463 @@
+
+-- --------------------------------------------------
+-- Entity Designer DDL Script for SQL Server 2005, 2008, and Azure
+-- --------------------------------------------------
+-- Date Created: 11/20/2012 15:42:58
+-- Generated from EDMX file: D:\Prism Projects\PrismApplication1\RMSDataAccessLayer\Model1.edmx
+-- --------------------------------------------------
+
+SET QUOTED_IDENTIFIER OFF;
+GO
+USE [QuickSales];
+GO
+IF SCHEMA_ID(N'dbo') IS NULL EXECUTE(N'CREATE SCHEMA [dbo]');
+GO
+
+-- --------------------------------------------------
+-- Dropping existing FOREIGN KEY constraints
+-- --------------------------------------------------
+
+IF OBJECT_ID(N'[dbo].[FK_TransactionTransactionEntry]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[TransactionEntryBase] DROP CONSTRAINT [FK_TransactionTransactionEntry];
+GO
+IF OBJECT_ID(N'[dbo].[FK_CustomerTransaction]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Transaction] DROP CONSTRAINT [FK_CustomerTransaction];
+GO
+IF OBJECT_ID(N'[dbo].[FK_CustomerPass]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[PassSet] DROP CONSTRAINT [FK_CustomerPass];
+GO
+IF OBJECT_ID(N'[dbo].[FK_PassTicket]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Transaction_Ticket] DROP CONSTRAINT [FK_PassTicket];
+GO
+IF OBJECT_ID(N'[dbo].[FK_ItemTransactionEntryBase]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[TransactionEntryBase] DROP CONSTRAINT [FK_ItemTransactionEntryBase];
+GO
+IF OBJECT_ID(N'[dbo].[FK_CashierTransactionBase]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Transaction] DROP CONSTRAINT [FK_CashierTransactionBase];
+GO
+IF OBJECT_ID(N'[dbo].[FK_BatchTransactionBase]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Transaction] DROP CONSTRAINT [FK_BatchTransactionBase];
+GO
+IF OBJECT_ID(N'[dbo].[FK_Ticket_inherits_TransactionBase]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Transaction_Ticket] DROP CONSTRAINT [FK_Ticket_inherits_TransactionBase];
+GO
+IF OBJECT_ID(N'[dbo].[FK_Perscription_inherits_TransactionBase]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Transaction_Perscription] DROP CONSTRAINT [FK_Perscription_inherits_TransactionBase];
+GO
+IF OBJECT_ID(N'[dbo].[FK_TicketEntry_inherits_TransactionEntryBase]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[TransactionEntryBase_TicketEntry] DROP CONSTRAINT [FK_TicketEntry_inherits_TransactionEntryBase];
+GO
+IF OBJECT_ID(N'[dbo].[FK_TransactionEntry_inherits_TransactionEntryBase]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[TransactionEntryBase_TransactionEntry] DROP CONSTRAINT [FK_TransactionEntry_inherits_TransactionEntryBase];
+GO
+IF OBJECT_ID(N'[dbo].[FK_Transaction_inherits_TransactionBase]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Transaction_Transaction] DROP CONSTRAINT [FK_Transaction_inherits_TransactionBase];
+GO
+
+-- --------------------------------------------------
+-- Dropping existing tables
+-- --------------------------------------------------
+
+IF OBJECT_ID(N'[dbo].[Item]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Item];
+GO
+IF OBJECT_ID(N'[dbo].[Transaction]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Transaction];
+GO
+IF OBJECT_ID(N'[dbo].[TransactionEntryBase]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[TransactionEntryBase];
+GO
+IF OBJECT_ID(N'[dbo].[Company]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Company];
+GO
+IF OBJECT_ID(N'[dbo].[CustomerSet]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[CustomerSet];
+GO
+IF OBJECT_ID(N'[dbo].[PassSet]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[PassSet];
+GO
+IF OBJECT_ID(N'[dbo].[Cashiers]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Cashiers];
+GO
+IF OBJECT_ID(N'[dbo].[Batches]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Batches];
+GO
+IF OBJECT_ID(N'[dbo].[Transaction_Ticket]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Transaction_Ticket];
+GO
+IF OBJECT_ID(N'[dbo].[Transaction_Perscription]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Transaction_Perscription];
+GO
+IF OBJECT_ID(N'[dbo].[TransactionEntryBase_TicketEntry]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[TransactionEntryBase_TicketEntry];
+GO
+IF OBJECT_ID(N'[dbo].[TransactionEntryBase_TransactionEntry]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[TransactionEntryBase_TransactionEntry];
+GO
+IF OBJECT_ID(N'[dbo].[Transaction_Transaction]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Transaction_Transaction];
+GO
+
+-- --------------------------------------------------
+-- Creating all tables
+-- --------------------------------------------------
+
+-- Creating table 'Item'
+CREATE TABLE [dbo].[Item] (
+    [Description] nvarchar(30)  NOT NULL,
+    [ItemNotDiscountable] bit  NOT NULL,
+    [ItemId] int  NOT NULL,
+    [ItemLookupCode] nvarchar(25)  NOT NULL,
+    [Department] nvarchar(30)  NOT NULL,
+    [Category] nvarchar(30)  NOT NULL,
+    [Price] decimal(19,4)  NOT NULL,
+    [Cost] decimal(19,4)  NOT NULL,
+    [Quantity] float  NOT NULL,
+    [ExtendedDescription] nvarchar(max)  NOT NULL,
+    [Inactive] bit  NOT NULL,
+    [DateCreated] datetime  NOT NULL,
+    [ItemType] nvarchar(max)  NOT NULL
+);
+GO
+
+-- Creating table 'Transaction'
+CREATE TABLE [dbo].[Transaction] (
+    [StoreID] int  NOT NULL,
+    [BatchId] int  NOT NULL,
+    [TransactionNumber] int IDENTITY(1,1) NOT NULL,
+    [Time] datetime  NOT NULL,
+    [CustomerId] int  NULL,
+    [CashierId] int  NOT NULL,
+    [Comment] nvarchar(255)  NULL,
+    [ReferenceNumber] nvarchar(50)  NULL,
+    [Status] int  NULL,
+    [StoreCode] varchar(30)  NULL
+);
+GO
+
+-- Creating table 'TransactionEntryBase'
+CREATE TABLE [dbo].[TransactionEntryBase] (
+    [StoreID] int  NOT NULL,
+    [TransactionEntryId] int  NOT NULL,
+    [TransactionNumber] int  NOT NULL,
+    [ItemId] int  NOT NULL,
+    [Price] decimal(19,4)  NOT NULL,
+    [Quantity] float  NOT NULL,
+    [Taxable] bit  NOT NULL,
+    [Comment] nvarchar(255)  NULL,
+    [TransactionTime] datetime  NULL,
+    [SalesTax] decimal(19,4)  NOT NULL,
+    [Discount] decimal(10,3)  NULL
+);
+GO
+
+-- Creating table 'Company'
+CREATE TABLE [dbo].[Company] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [CompanyName] nvarchar(max)  NOT NULL,
+    [Address] nvarchar(max)  NOT NULL,
+    [SoftwareName] nvarchar(max)  NOT NULL
+);
+GO
+
+-- Creating table 'CustomerSet'
+CREATE TABLE [dbo].[CustomerSet] (
+    [CustomerId] int IDENTITY(1,1) NOT NULL,
+    [FirstName] nvarchar(max)  NOT NULL,
+    [LastName] nvarchar(max)  NOT NULL,
+    [CompanyName] nvarchar(max)  NOT NULL
+);
+GO
+
+-- Creating table 'PassSet'
+CREATE TABLE [dbo].[PassSet] (
+    [PassId] int IDENTITY(1,1) NOT NULL,
+    [StartDate] datetime  NOT NULL,
+    [EndDate] datetime  NOT NULL,
+    [CustomerId] int  NOT NULL
+);
+GO
+
+-- Creating table 'Cashiers'
+CREATE TABLE [dbo].[Cashiers] (
+    [CashierId] int IDENTITY(1,1) NOT NULL,
+    [FirstName] nvarchar(max)  NOT NULL,
+    [LastName] nvarchar(max)  NOT NULL
+);
+GO
+
+-- Creating table 'Batches'
+CREATE TABLE [dbo].[Batches] (
+    [BatchId] int IDENTITY(1,1) NOT NULL,
+    [OpeningCash] float  NOT NULL,
+    [EndingCash] float  NOT NULL
+);
+GO
+
+-- Creating table 'Transaction_Ticket'
+CREATE TABLE [dbo].[Transaction_Ticket] (
+    [PassId] int  NULL,
+    [TransactionNumber] int  NOT NULL
+);
+GO
+
+-- Creating table 'Transaction_Perscription'
+CREATE TABLE [dbo].[Transaction_Perscription] (
+    [DoctorId] int  NOT NULL,
+    [TransactionNumber] int  NOT NULL
+);
+GO
+
+-- Creating table 'TransactionEntryBase_TicketEntry'
+CREATE TABLE [dbo].[TransactionEntryBase_TicketEntry] (
+    [VehicleNumber] nvarchar(max)  NULL,
+    [StartDateTime] datetime  NOT NULL,
+    [EndDateTime] datetime  NULL,
+    [TransactionEntryId] int  NOT NULL
+);
+GO
+
+-- Creating table 'TransactionEntryBase_TransactionEntry'
+CREATE TABLE [dbo].[TransactionEntryBase_TransactionEntry] (
+    [TransactionEntryId] int  NOT NULL
+);
+GO
+
+-- Creating table 'Transaction_Transaction'
+CREATE TABLE [dbo].[Transaction_Transaction] (
+    [TransactionNumber] int  NOT NULL
+);
+GO
+
+-- --------------------------------------------------
+-- Creating all PRIMARY KEY constraints
+-- --------------------------------------------------
+
+-- Creating primary key on [ItemId] in table 'Item'
+ALTER TABLE [dbo].[Item]
+ADD CONSTRAINT [PK_Item]
+    PRIMARY KEY CLUSTERED ([ItemId] ASC);
+GO
+
+-- Creating primary key on [TransactionNumber] in table 'Transaction'
+ALTER TABLE [dbo].[Transaction]
+ADD CONSTRAINT [PK_Transaction]
+    PRIMARY KEY CLUSTERED ([TransactionNumber] ASC);
+GO
+
+-- Creating primary key on [TransactionEntryId] in table 'TransactionEntryBase'
+ALTER TABLE [dbo].[TransactionEntryBase]
+ADD CONSTRAINT [PK_TransactionEntryBase]
+    PRIMARY KEY CLUSTERED ([TransactionEntryId] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Company'
+ALTER TABLE [dbo].[Company]
+ADD CONSTRAINT [PK_Company]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [CustomerId] in table 'CustomerSet'
+ALTER TABLE [dbo].[CustomerSet]
+ADD CONSTRAINT [PK_CustomerSet]
+    PRIMARY KEY CLUSTERED ([CustomerId] ASC);
+GO
+
+-- Creating primary key on [PassId] in table 'PassSet'
+ALTER TABLE [dbo].[PassSet]
+ADD CONSTRAINT [PK_PassSet]
+    PRIMARY KEY CLUSTERED ([PassId] ASC);
+GO
+
+-- Creating primary key on [CashierId] in table 'Cashiers'
+ALTER TABLE [dbo].[Cashiers]
+ADD CONSTRAINT [PK_Cashiers]
+    PRIMARY KEY CLUSTERED ([CashierId] ASC);
+GO
+
+-- Creating primary key on [BatchId] in table 'Batches'
+ALTER TABLE [dbo].[Batches]
+ADD CONSTRAINT [PK_Batches]
+    PRIMARY KEY CLUSTERED ([BatchId] ASC);
+GO
+
+-- Creating primary key on [TransactionNumber] in table 'Transaction_Ticket'
+ALTER TABLE [dbo].[Transaction_Ticket]
+ADD CONSTRAINT [PK_Transaction_Ticket]
+    PRIMARY KEY CLUSTERED ([TransactionNumber] ASC);
+GO
+
+-- Creating primary key on [TransactionNumber] in table 'Transaction_Perscription'
+ALTER TABLE [dbo].[Transaction_Perscription]
+ADD CONSTRAINT [PK_Transaction_Perscription]
+    PRIMARY KEY CLUSTERED ([TransactionNumber] ASC);
+GO
+
+-- Creating primary key on [TransactionEntryId] in table 'TransactionEntryBase_TicketEntry'
+ALTER TABLE [dbo].[TransactionEntryBase_TicketEntry]
+ADD CONSTRAINT [PK_TransactionEntryBase_TicketEntry]
+    PRIMARY KEY CLUSTERED ([TransactionEntryId] ASC);
+GO
+
+-- Creating primary key on [TransactionEntryId] in table 'TransactionEntryBase_TransactionEntry'
+ALTER TABLE [dbo].[TransactionEntryBase_TransactionEntry]
+ADD CONSTRAINT [PK_TransactionEntryBase_TransactionEntry]
+    PRIMARY KEY CLUSTERED ([TransactionEntryId] ASC);
+GO
+
+-- Creating primary key on [TransactionNumber] in table 'Transaction_Transaction'
+ALTER TABLE [dbo].[Transaction_Transaction]
+ADD CONSTRAINT [PK_Transaction_Transaction]
+    PRIMARY KEY CLUSTERED ([TransactionNumber] ASC);
+GO
+
+-- --------------------------------------------------
+-- Creating all FOREIGN KEY constraints
+-- --------------------------------------------------
+
+-- Creating foreign key on [TransactionNumber] in table 'TransactionEntryBase'
+ALTER TABLE [dbo].[TransactionEntryBase]
+ADD CONSTRAINT [FK_TransactionTransactionEntry]
+    FOREIGN KEY ([TransactionNumber])
+    REFERENCES [dbo].[Transaction]
+        ([TransactionNumber])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_TransactionTransactionEntry'
+CREATE INDEX [IX_FK_TransactionTransactionEntry]
+ON [dbo].[TransactionEntryBase]
+    ([TransactionNumber]);
+GO
+
+-- Creating foreign key on [CustomerId] in table 'Transaction'
+ALTER TABLE [dbo].[Transaction]
+ADD CONSTRAINT [FK_CustomerTransaction]
+    FOREIGN KEY ([CustomerId])
+    REFERENCES [dbo].[CustomerSet]
+        ([CustomerId])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_CustomerTransaction'
+CREATE INDEX [IX_FK_CustomerTransaction]
+ON [dbo].[Transaction]
+    ([CustomerId]);
+GO
+
+-- Creating foreign key on [CustomerId] in table 'PassSet'
+ALTER TABLE [dbo].[PassSet]
+ADD CONSTRAINT [FK_CustomerPass]
+    FOREIGN KEY ([CustomerId])
+    REFERENCES [dbo].[CustomerSet]
+        ([CustomerId])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_CustomerPass'
+CREATE INDEX [IX_FK_CustomerPass]
+ON [dbo].[PassSet]
+    ([CustomerId]);
+GO
+
+-- Creating foreign key on [PassId] in table 'Transaction_Ticket'
+ALTER TABLE [dbo].[Transaction_Ticket]
+ADD CONSTRAINT [FK_PassTicket]
+    FOREIGN KEY ([PassId])
+    REFERENCES [dbo].[PassSet]
+        ([PassId])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_PassTicket'
+CREATE INDEX [IX_FK_PassTicket]
+ON [dbo].[Transaction_Ticket]
+    ([PassId]);
+GO
+
+-- Creating foreign key on [ItemId] in table 'TransactionEntryBase'
+ALTER TABLE [dbo].[TransactionEntryBase]
+ADD CONSTRAINT [FK_ItemTransactionEntryBase]
+    FOREIGN KEY ([ItemId])
+    REFERENCES [dbo].[Item]
+        ([ItemId])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_ItemTransactionEntryBase'
+CREATE INDEX [IX_FK_ItemTransactionEntryBase]
+ON [dbo].[TransactionEntryBase]
+    ([ItemId]);
+GO
+
+-- Creating foreign key on [CashierId] in table 'Transaction'
+ALTER TABLE [dbo].[Transaction]
+ADD CONSTRAINT [FK_CashierTransactionBase]
+    FOREIGN KEY ([CashierId])
+    REFERENCES [dbo].[Cashiers]
+        ([CashierId])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_CashierTransactionBase'
+CREATE INDEX [IX_FK_CashierTransactionBase]
+ON [dbo].[Transaction]
+    ([CashierId]);
+GO
+
+-- Creating foreign key on [BatchId] in table 'Transaction'
+ALTER TABLE [dbo].[Transaction]
+ADD CONSTRAINT [FK_BatchTransactionBase]
+    FOREIGN KEY ([BatchId])
+    REFERENCES [dbo].[Batches]
+        ([BatchId])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_BatchTransactionBase'
+CREATE INDEX [IX_FK_BatchTransactionBase]
+ON [dbo].[Transaction]
+    ([BatchId]);
+GO
+
+-- Creating foreign key on [TransactionNumber] in table 'Transaction_Ticket'
+ALTER TABLE [dbo].[Transaction_Ticket]
+ADD CONSTRAINT [FK_Ticket_inherits_TransactionBase]
+    FOREIGN KEY ([TransactionNumber])
+    REFERENCES [dbo].[Transaction]
+        ([TransactionNumber])
+    ON DELETE CASCADE ON UPDATE NO ACTION;
+GO
+
+-- Creating foreign key on [TransactionNumber] in table 'Transaction_Perscription'
+ALTER TABLE [dbo].[Transaction_Perscription]
+ADD CONSTRAINT [FK_Perscription_inherits_TransactionBase]
+    FOREIGN KEY ([TransactionNumber])
+    REFERENCES [dbo].[Transaction]
+        ([TransactionNumber])
+    ON DELETE CASCADE ON UPDATE NO ACTION;
+GO
+
+-- Creating foreign key on [TransactionEntryId] in table 'TransactionEntryBase_TicketEntry'
+ALTER TABLE [dbo].[TransactionEntryBase_TicketEntry]
+ADD CONSTRAINT [FK_TicketEntry_inherits_TransactionEntryBase]
+    FOREIGN KEY ([TransactionEntryId])
+    REFERENCES [dbo].[TransactionEntryBase]
+        ([TransactionEntryId])
+    ON DELETE CASCADE ON UPDATE NO ACTION;
+GO
+
+-- Creating foreign key on [TransactionEntryId] in table 'TransactionEntryBase_TransactionEntry'
+ALTER TABLE [dbo].[TransactionEntryBase_TransactionEntry]
+ADD CONSTRAINT [FK_TransactionEntry_inherits_TransactionEntryBase]
+    FOREIGN KEY ([TransactionEntryId])
+    REFERENCES [dbo].[TransactionEntryBase]
+        ([TransactionEntryId])
+    ON DELETE CASCADE ON UPDATE NO ACTION;
+GO
+
+-- Creating foreign key on [TransactionNumber] in table 'Transaction_Transaction'
+ALTER TABLE [dbo].[Transaction_Transaction]
+ADD CONSTRAINT [FK_Transaction_inherits_TransactionBase]
+    FOREIGN KEY ([TransactionNumber])
+    REFERENCES [dbo].[Transaction]
+        ([TransactionNumber])
+    ON DELETE CASCADE ON UPDATE NO ACTION;
+GO
+
+-- --------------------------------------------------
+-- Script has ended
+-- --------------------------------------------------

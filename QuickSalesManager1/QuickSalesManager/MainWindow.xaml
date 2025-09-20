@@ -1,0 +1,39 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    
+    xmlns:params="http://schemas.codeplex.com/elysium/params" 
+ 
+	x:Class="QuickSalesManager.MainWindow"
+  
+	x:Name="Window"
+	xmlns:local="clr-namespace:QuickSalesManager" 
+	Title=""
+     AllowsTransparency="True"
+    SnapsToDevicePixels="True"
+ WindowStyle="None"
+ BorderBrush="#FF3F3F3F"
+	Width="640" Height="480" ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen" Background="{x:Null}" PreviewMouseLeftButtonDown="Window_PreviewMouseLeftButtonDown">
+    <Border
+ x:Name="m_edgeBorder"
+ x:FieldModifier="private"
+ Margin="5"
+ 
+ IsHitTestVisible="True"
+ IsEnabled="False" Background="#FF282626">
+        <Border.Effect>
+            <DropShadowEffect
+   Opacity="0.999"
+   BlurRadius="5"
+   ShadowDepth="0" />
+        </Border.Effect>
+
+        <Grid x:Name="LayoutRoot" >
+
+            <local:MainView />
+        </Grid>
+
+
+    </Border>
+    
+</Window>

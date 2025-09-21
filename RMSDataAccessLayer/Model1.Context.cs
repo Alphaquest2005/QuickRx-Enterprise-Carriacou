@@ -19,8 +19,6 @@ namespace RMSDataAccessLayer
             : base("name=RMSModel")
         {
             this.Configuration.LazyLoadingEnabled = false;
-
-            this.Database.CommandTimeout = 0;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

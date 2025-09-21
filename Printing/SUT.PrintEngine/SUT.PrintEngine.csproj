@@ -115,6 +115,7 @@
       <DependentUpon>LoadScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Extensions\ApplicationExtention.cs" />
+    <Compile Include="OptimizedPrintManager.cs" />
     <Compile Include="Paginators\DataTablePaginator.cs" />
     <Compile Include="PrintVisual.cs" />
     <Compile Include="Utils\UIUtil.cs" />

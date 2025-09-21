@@ -149,6 +149,8 @@
       <DependentUpon>SalesView.xaml</DependentUpon>
     </Compile>
     <Compile Include="SalesVM.cs" />
+    <Compile Include="OptimizedPrinting.cs" />
+    <Compile Include="FastGdiPrinting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="scratchpad.xaml.cs">
       <DependentUpon>scratchpad.xaml</DependentUpon>

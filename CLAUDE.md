@@ -6,8 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Build the entire solution:
 ```bash
-msbuild QuickRx-Enterprise-Carriacou.sln /p:Configuration=Debug /p:Platform="Mixed Platforms"
-msbuild QuickRx-Enterprise-Carriacou.sln /p:Configuration=Release /p:Platform="Mixed Platforms"
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe" QuickRx-Enterprise-Carriacou.sln /p:Configuration=Debug /p:Platform="Mixed Platforms" /nologo
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe" QuickRx-Enterprise-Carriacou.sln /p:Configuration=Release /p:Platform="Mixed Platforms" /nologo
+```
+
+Clean, restore, and rebuild:
+```bash
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe" QuickRx-Enterprise-Carriacou.sln /t:Clean,Restore,Rebuild /p:Configuration=Debug /p:Platform="Mixed Platforms" /nologo
 ```
 
 Restore NuGet packages:
@@ -17,8 +22,21 @@ nuget restore QuickRx-Enterprise-Carriacou.sln
 
 Build specific projects:
 ```bash
-msbuild QuickSales/QuickSales.csproj /p:Configuration=Debug /p:Platform=x86
-msbuild RMSDataAccessLayer/RMSDataAccessLayer.csproj /p:Configuration=Debug
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe" QuickSales/QuickSales.csproj /p:Configuration=Debug /p:Platform=x86 /nologo
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe" RMSDataAccessLayer/RMSDataAccessLayer.csproj /p:Configuration=Debug /nologo
+```
+
+## Testing
+
+Run TrackableEntities tests:
+```bash
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe" TrackableEntities/Tests/TrackableEntities.Client.Tests/TrackableEntities.Client.Tests.csproj /p:Configuration=Debug /nologo
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe" TrackableEntities/Tests/TrackableEntities.EF.6.Tests/TrackableEntities.EF.6.Tests.csproj /p:Configuration=Debug /nologo
+```
+
+Run stress tests:
+```bash
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe" StressTest/QS2QBPost.csproj /p:Configuration=Debug /nologo
 ```
 
 ## High-Level Architecture
@@ -26,11 +44,11 @@ msbuild RMSDataAccessLayer/RMSDataAccessLayer.csproj /p:Configuration=Debug
 QuickRx Enterprise is a **pharmacy Point of Sale (POS) system** built for Hills and Valley Pharmacy using WPF and Microsoft Prism framework for modular architecture.
 
 ### Technology Stack
-- **.NET Framework 4.6.1** with WPF for UI
+- **.NET Framework 4.8** with WPF for UI
 - **Microsoft Prism 4.1** for modular application framework
-- **Entity Framework 6.1.3** with Database-First approach
+- **Entity Framework 6.5.1** with Database-First approach
 - **Unity 2.1** for dependency injection
-- **TrackableEntities 2.5.2** for change tracking
+- **TrackableEntities 2.5.7** for change tracking
 - **SQL Server** database (`QuickSales-Enterprise-Carriacou`)
 
 ### Core Applications
